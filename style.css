@@ -1785,6 +1785,20 @@ line-height: 24px;
     height: 0;
 }
 
+/*custom*/
+
+#owl-wedding .owl-item div{
+  padding:5px;
+}
+#owl-wedding .owl-item img{
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
 
 /*shortcodes */
 .nav-tabs {
