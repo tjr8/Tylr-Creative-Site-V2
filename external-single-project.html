@@ -51,15 +51,69 @@
     </head>
 
 
-<body>
 
+<body id="bigWrapper">
 
-    <div id="transmitter">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="0">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Tylr Creative</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling --
+                <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a data-scroll href="index.html">Home</a></li>
+                            <li><a data-scroll href="#about">About</a></li>
+                            <li class="dropdown">
+                                <a data-scroll href="#portfolio" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+                            </li>
+                            
+                            <li><a data-scroll href="#contact">Contact</a></li>
+
+                        </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <!--preloader-->
+    <div class="ip-header">
+        <div class="ip-logo">
+            <img class="img-responsive preloaderLogo center-block" src="img/logoWhite.png" alt="preloader">
+        </div>
+
+        <div class="ip-loader">
+            <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+                <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+                <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+            </svg>
+        </div>
+    </div>
+    <!--end preloader-->
+
+    <section id="singlePage">
 
         <section id="singlePageIntro">
             <div class="container">
-                <div class="row text-center">
-                    <h1>Wedding Photography</h1>
+                <div class="row text-center" data-scroll-reveal="enter top move 30px over 1s after 0.2s">
+                    <br><br><br>
+                    <h1>One Project</h1>
+                    <p>
+                        Brading / Corporate / Identity / Web Agency
+                    </p>
+                    <br><br>
+                    <a class="btn btn-default btn-black">
+                        Live Preview
+                    </a>
                     <div class="clearfix"></div>
                     <img class="center-block img-responsive separator" src="img/separatorBlack.png" alt="Separator">
 
@@ -77,7 +131,7 @@
 
                     <div class="row">
 
-                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9" data-scroll-reveal="enter left move 30px over 1s after 0.2s">
                             <!-- article-->
                             <div id="post">
 
@@ -98,20 +152,20 @@
                         </div>
 
                         <!--  info -->
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" data-scroll-reveal="enter right move 30px over 1s after 0.2s">
 
                             <div class="singleProjectInfo">
                                 <ul class="list">
                                     <li>
-                                        <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;<p class="bold">2013</p>
+                                        <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;<p class="bold">30 August 2014</p>
                                     </li>
 
                                     <li>
-                                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Clients: <p class="bold">Andy & Amanda Stephens</p>
+                                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Client: <p class="bold">Microsoft</p>
                                     </li>
 
                                     <li>
-                                        <i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;Additional help by: <p class="bold">Keelin Toal</p>
+                                        <i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;Posted by: <p class="bold">John Doe</p>
                                     </li>
                                 </ul>
                             </div>
@@ -121,23 +175,11 @@
 
                     </div>
 
-                    <!--Projects-->
-
-                    <div id="owl-project" class="owl-carousel">
-                      <div><img src="http://placehold.it/1170x300/42bdc2/FFFFFF"></div>
-                      <div><img src="http://placehold.it/1170x400/42bdc2/FFFFFF"></div>
-                      <div><img src="http://placehold.it/1170x500/42bdc2/FFFFFF"></div>
-                      <div><img src="http://placehold.it/1170x200/42bdc2/FFFFFF"></div>
-                      <div><img src="http://placehold.it/1170x500/42bdc2/FFFFFF"></div>
-                      <div><img src="http://placehold.it/1170x250/42bdc2/FFFFFF"></div>
-                      <div><img src="http://placehold.it/1170x350/42bdc2/FFFFFF"></div>
-                      <div><img src="http://placehold.it/1170x300/42bdc2/FFFFFF"></div>
-                      <div><img src="http://placehold.it/1170x100/42bdc2/FFFFFF"></div>
-                      <div><img src="http://placehold.it/1170x500/42bdc2/FFFFFF"></div>
+                    <div class="row singleImageWrapper" data-scroll-reveal="enter top move 30px over 1s after 0.2s">
+                        <div class="col-md-12">
+                            <img src="img/background1.jpg" alt="single project Info" class="img-responsive center-block">
+                        </div>
                     </div>
-
-
-                    <!--bottom--
 
                     <div class="row singleImageWrapper" data-scroll-reveal="enter top move 30px over 1s after 0.2s">
                         <div class="col-md-6">
@@ -148,6 +190,18 @@
                         </div>
                     </div>
 
+                    <div class="row paginationRow">
+                        <div class="col-xs-6">
+                            <a class="btn btn-default btn-black" href="#">
+                                < Previous
+                            </a>
+                        </div>
+                        <div class="col-xs-6 text-right">
+                            <a class="btn btn-default btn-black" href="#">
+                               next >
+                            </a>
+                        </div>
+                    </div>
 
                 </div>
                 <!--end content-->
@@ -157,36 +211,32 @@
         </section>
         <!--end section-->
 
-    </div>
 
-<!--Footer-->
-
-    <section id="footer" class="dark">
-        <div class="bottomLine text-center">
-
-            <div class="backToTop">
-                <a data-scroll href="#intro">
-                    <i class="fa fa-angle-double-up"></i><br>
-                    <h5>Back to top</h5>
-                </a>
-            </div>
-
-            <ul class="footerSocialIcons">
-                <li><a href="https://www.facebook.com/tylrcreative"><i class="fa fa-facebook fa-2x"></i></a></li>
-                <li><a href="https://twitter.com/Tylr_r"><i class="fa fa-twitter fa-2x"></i></a></li>
-                <li><a href="http://instagram.com/tylr_r"><i class="fa fa-instagram fa-2x"></i></a></li>
-                <li><a href="https://www.behance.net/tjr"><i class="fa fa-behance fa-2x"></i></a></li>
-            </ul>
-            <p class="bold">All works © Tyler Robinson 2014. </p> <p> <br> Please do not reproduce without the expressed written consent of Tyler Robinson.</p>
-        </div>
     </section>
 
-    <script src="js/overlay.js"></script>
+        <section id="footer" class="dark">
+            <div class="bottomLine text-center">
+
+                <div class="backToTop">
+                    <a data-scroll href="#intro">
+                        <i class="fa fa-angle-double-up"></i><br>
+                        <h5>Back to top</h5>
+                    </a>
+                </div>
+
+                <ul class="footerSocialIcons">
+                    <li><a href="https://www.facebook.com/tylrcreative"><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href="https://twitter.com/Tylr_r"><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href="http://instagram.com/tylr_r"><i class="fa fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://www.behance.net/tjr"><i class="fa fa-behance fa-2x"></i></a></li>
+                </ul>
+                <p class="bold">All works © Tyler Robinson 2014. </p> <p> <br> Please do not reproduce without the expressed written consent of Tyler Robinson.</p>
+            </div>
+        </section>
+
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <script src="js/preloader.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/overlay.js"></script> <!-- edit to add/remove oeverlay -->
     <script src="js/custom.js"></script>
 
 </body>
