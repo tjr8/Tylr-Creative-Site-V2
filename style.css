@@ -415,6 +415,10 @@ p.bold{
     font-weight:700;
 }
 
+.bold{
+    font-weight: 700;
+}
+
 
 
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
@@ -862,6 +866,7 @@ p.bold{
 
 #singlePageIntro .container{
     padding:100px;
+    padding-top: 30px;
     padding-bottom:30px;
 }
 
@@ -878,6 +883,11 @@ p.bold{
     padding:20px;
     list-style:none;
     border-left:5px solid #282828;
+}
+
+.singlProjectInfo div{
+    display: inline-block;
+    text-align: center;
 }
 
 .singleProjectInfo ul li p{
@@ -1789,6 +1799,7 @@ line-height: 24px;
 
 #owl-project .owl-item div{
   padding:5px;
+  padding-top: 30px;
 }
 #owl-project .owl-item img{
   display: block;
