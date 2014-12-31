@@ -1787,10 +1787,10 @@ line-height: 24px;
 
 /*custom*/
 
-#owl-wedding .owl-item div{
+#owl-project .owl-item div{
   padding:5px;
 }
-#owl-wedding .owl-item img{
+#owl-project .owl-item img{
   display: block;
   width: 100%;
   height: auto;
