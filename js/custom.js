@@ -248,7 +248,7 @@ $(document).ready(function () {
     loop : true,
     center : true,
     items : 3,
-    stopOnHover : true,
+    stopOnHover : false,
     navigation : false,
     paginationSpeed : 1000,
     goToFirstSpeed : 2000,
