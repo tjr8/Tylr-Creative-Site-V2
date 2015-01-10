@@ -156,6 +156,17 @@ $(document).ready(function () {
         return false;
     });
 
+    
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    /* unslider */
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    $(document).ready(function(){
+    $(function() {
+    $('.banner').unslider();
+    });
+    });
+    */
+
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     /* smoothscroll */
@@ -164,7 +175,6 @@ $(document).ready(function () {
         speed: 1000,
         offset: 70
     });
-
 
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
