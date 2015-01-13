@@ -1795,7 +1795,7 @@ line-height: 24px;
     height: 0;
 }
 
-/*custom*/
+/*custom owl*/
 
 #owl-project .owl-item div{
   padding:5px;
@@ -1956,11 +1956,3 @@ line-height: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
-
-/* Slider */
-
-.banner { position: relative; overflow: auto; 
-  background: #16A9FF; 
-  min-height: 100px; }
-.banner li { list-style: none; }
-.banner ul li { float: left; }

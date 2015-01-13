@@ -264,13 +264,6 @@ $(document).ready(function () {
     goToFirstSpeed : 2000,
     singleItem : false,
     autoHeight : false,
-    margin:10,
-    responsive:{
-        600:{
-            items:4
-        }
-    },
-    transitionStyle : "fade"
   });
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
