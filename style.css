@@ -1810,6 +1810,31 @@ line-height: 24px;
   border-radius: 3px;
 }
 
+#owl-project .owl-buttons div {
+    padding: 5px 9px;
+}
+
+#owl-project .owl-buttons i{
+    margin-top: 2px;
+}
+
+#owl-project .owl-buttons div {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#owl-project .owl-buttons .owl-prev{
+    left: 10px;
+
+}
+
+#owl-project .owl-buttons .owl-next{
+    right: 10px;
+}
+
 
 /*shortcodes */
 .nav-tabs {

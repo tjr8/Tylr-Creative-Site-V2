@@ -255,15 +255,19 @@ $(document).ready(function () {
 
      $("#owl-project").owlCarousel({
     autoPlay : 3000,
+    dots : true,
     loop : true,
     center : true,
     items : 3,
-    stopOnHover : false,
-    navigation : false,
+    stopOnHover : true,
     paginationSpeed : 1000,
     goToFirstSpeed : 2000,
-    singleItem : false,
     autoHeight : false,
+    navigation: true,
+    navigationText: [
+        "<i class='fa fa-angle-left fa-2x featuredNav'></i>",
+        "<i class='fa fa-angle-right fa-2x featuredNav'></i>"
+    ]
   });
 
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
