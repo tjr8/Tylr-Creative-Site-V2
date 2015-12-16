@@ -97,7 +97,7 @@
     }
 
     .portfolioFilters {
-        height: 220px;
+        display: none;
     }
 
     .memberDescription{
