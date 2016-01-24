@@ -280,16 +280,16 @@ function getPhotoSwipeImagesFromBehanceImages(behanceImages) {
   return photoswipeImages;
 }
 
-function insertProjectsIntoDomId(projects, domId) {
+function insertProjectsIntoDomClass(projects, domClass) {
   for (var i = projects.length; projects.length > 0; i--) {
     var project = projects[i];
     var projectCoverSize = 230;
     var projectCoverSrc = project.covers.projectCoverSize;
 
-    $("#"+domId).append('
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <div id='+projectCoverSrc+' itemprop="contentUrl" data-size="1000x667" data-index="0">
-          <img src="img/city-1-thumb.jpg" height="400" width="600" itemprop="thumbnail" alt="Beach">
+    $("."+domClass).append('
+      <figure id="project" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div id="'+project.id+'">
+          <img src="'+projectCoverSrc+'" height="'+projectCoverSize+'" width="'+projectCoverSize+'" itemprop="thumbnail" alt="'+project.name+'">
         </div>
       </figure>
     ');
@@ -298,18 +298,23 @@ function insertProjectsIntoDomId(projects, domId) {
 
 function main() {
   var projectIds = ['10973025'];
-  // START HERE
-  var behanceImages = getBehanceProjectImages();
-  var images = getImagesFromBehanceImages(behanceImages);
-  var photoswipeImages = getPhotoSwipeImagesFromBehanceImages(images);
+  var domClass = 'galleryList':
+  
+  insertProjectsIntoDomClass(getBehanceProjects(projectIds),domClass);
+
+  var $domElement = $('.'+domClass);
 
   var $pswp = $('.pswp')[0];
-  $pic.on('click', 'figure', function(event) {
-    event.preventDefault();
 
-    var $index = $(this).index();
+  $domElement('figure#project').on('click', 'figure', function(event) {
+    event.preventDefault();
+    var projectId = $this('div').attr('id');
+
+    var project = getBehanceProject(projectId);
+    var behanceImages = getBehanceProjectImages();
+    var photoswipeImages = getPhotoSwipeImagesFromBehanceImages(behanceImages);
+
     var options = {
-      index: $index,
       bgOpacity: 0.7,
       showHideOpacity: true
     }
