@@ -1,4 +1,4 @@
-
+"use strict";
 /*
 Behance Project Object Format example
 =====================================
@@ -214,7 +214,6 @@ function getBehanceProjects(projectIds) {
 
 function getBehanceProjectImages(project) {
     var modules = project.modules;
-    var modulesLength = modules.length;
     var behanceImages = [];
 
     for (var i = modules.length; modules.length > 0; i--) {
@@ -272,7 +271,7 @@ function getPhotoSwipeImagesFromBehanceImages(behanceImages) {
         src: photoswipeImageSrc,
         w: photoswipeImageWidth,
         h: photoswipeImageHeight
-      }
+      };
 
       photoswipeImages.push(photoswipeImage);
     }
@@ -293,7 +292,7 @@ function insertProjectsIntoDomClass(projects, domClass) {
 function main() {
   var projectIds = ['10973025'];
   var domClass = 'galleryList';
-  
+
   insertProjectsIntoDomClass(getBehanceProjects(projectIds),domClass);
 
   var $domElement = $('.'+domClass);
@@ -302,16 +301,16 @@ function main() {
 
   $domElement('figure#project').on('click', 'figure', function(event) {
     event.preventDefault();
-    var projectId = $this('div').attr('id');
+    var projectId = $('div',this).attr('id');
 
     var project = getBehanceProject(projectId);
-    var behanceImages = getBehanceProjectImages();
+    var behanceImages = getBehanceProjectImages(project);
     var photoswipeImages = getPhotoSwipeImagesFromBehanceImages(behanceImages);
 
     var options = {
       bgOpacity: 0.7,
       showHideOpacity: true
-    }
+    };
 
     // Initialize PhotoSwipe
     var gallery = new PhotoSwipe($pswp, PhotoSwipeUI_Default, photoswipeImages, options);
