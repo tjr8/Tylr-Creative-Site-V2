@@ -203,7 +203,7 @@ function getBehanceProject(projectId) {
 
 function getBehanceProjects(projectIds) {
   var projects = [];
-  for (var i = projectIds.length; projectIds.length > 0; i--) {
+  for (var i = projectIds.length; i > 0; i--) {
     var projectId = projectIds[i];
     var project = getBehanceProject(projectId);
     projects.push(project);
@@ -216,7 +216,7 @@ function getBehanceProjectImages(project) {
     var modules = project.modules;
     var behanceImages = [];
 
-    for (var i = modules.length; modules.length > 0; i--) {
+    for (var i = modules.length; i > 0; i--) {
       var module = modules[i];
 
       if(module.type === "image") {
@@ -229,7 +229,7 @@ function getBehanceProjectImages(project) {
 
 // function getImagesFromBehanceImages(behanceImages) {
 //   var images = [];
-//   for (var i = behanceImages.length; behanceImages.length > 0; i--) {
+//   for (var i = behanceImages.length; i > 0; i--) {
 //     var behanceImage = behanceImages[i];
 //
 //     var imageSrc = behanceImage.size.disp;
@@ -260,7 +260,7 @@ function getBehanceProjectImages(project) {
 function getPhotoSwipeImagesFromBehanceImages(behanceImages) {
     var photoswipeImages = [];
 
-    for (var i = behanceImages.length; behanceImages.length > 0; i--) {
+    for (var i = behanceImages.length; i > 0; i--) {
       var behanceImage = behanceImages[i];
 
       var photoswipeImageSrc = behanceImage.size.disp;
@@ -280,7 +280,7 @@ function getPhotoSwipeImagesFromBehanceImages(behanceImages) {
 }
 
 function insertProjectsIntoDomClass(projects, domClass) {
-  for (var i = projects.length; projects.length > 0; i--) {
+  for (var i = projects.length; i > 0; i--) {
     var project = projects[i];
     var projectCoverSize = 230;
     var projectCoverSrc = project.covers.projectCoverSize;
