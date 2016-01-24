@@ -292,7 +292,7 @@ function insertProjectsIntoDomClass(projects, domClass) {
 
 function main() {
   var projectIds = ['10973025'];
-  var domClass = 'galleryList':
+  var domClass = 'galleryList';
   
   insertProjectsIntoDomClass(getBehanceProjects(projectIds),domClass);
 
