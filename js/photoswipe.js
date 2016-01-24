@@ -276,7 +276,7 @@ function getPhotoSwipeImagesFromBehanceImages(behanceImages) {
 
       photoswipeImages.push(photoswipeImage);
     }
-  }
+    
   return photoswipeImages;
 }
 
