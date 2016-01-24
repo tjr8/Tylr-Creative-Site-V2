@@ -276,7 +276,7 @@ function getPhotoSwipeImagesFromBehanceImages(behanceImages) {
 
       photoswipeImages.push(photoswipeImage);
     }
-    
+
   return photoswipeImages;
 }
 
@@ -286,13 +286,7 @@ function insertProjectsIntoDomClass(projects, domClass) {
     var projectCoverSize = 230;
     var projectCoverSrc = project.covers.projectCoverSize;
 
-    $("."+domClass).append('
-      <figure id="project" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <div id="'+project.id+'">
-          <img src="'+projectCoverSrc+'" height="'+projectCoverSize+'" width="'+projectCoverSize+'" itemprop="thumbnail" alt="'+project.name+'">
-        </div>
-      </figure>
-    ');
+    $("."+domClass).append('<figure id="project" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"><div id="'+project.id+'"><img src="'+projectCoverSrc+'" height="'+projectCoverSize+'" width="'+projectCoverSize+'" itemprop="thumbnail" alt="'+project.name+'"></div></figure>');
   }
 }
 
