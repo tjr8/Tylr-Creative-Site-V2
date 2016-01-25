@@ -195,22 +195,31 @@ http_code: 200
 }
 */
 
-
+// Set the global configs to synchronous 
 function getBehanceProject(projectId) {
-  $.getJSON("http://behance.net/v2/projects/"+projectId+"?api_key=cK6VzQOtV4uhXjQRsrLbYaRsg14uoK60&callback=cb", function (data) {
+  var request = $.ajax({
+    url: "http://behance.net/v2/projects/"+projectId+"?api_key=cK6VzQOtV4uhXjQRsrLbYaRsg14uoK60",
+    method: "GET",
+    dataType: "JSONP"
+  });
+
+  request.done(function (data) {
     var behanceProject = data.project;
+    console.log(behanceProject);
+
     return behanceProject;
   });
 }
 
 function getBehanceProjects(projectIds) {
   var projects = [];
-  for (var i = projectIds.length; i > 0; i--) {
+  for (var i = projectIds.length-1; i >= 0; --i) {
     var projectId = projectIds[i];
     var project = getBehanceProject(projectId);
     projects.push(project);
   }
-
+  
+  console.log(projects);
   return projects;
 }
 
@@ -218,7 +227,7 @@ function getBehanceProjectImages(project) {
     var modules = project.modules;
     var behanceImages = [];
 
-    for (var i = modules.length; i > 0; i--) {
+    for (var i = modules.length-1; i >= 0; --i) {
       var module = modules[i];
 
       if(module.type === "image") {
@@ -262,7 +271,7 @@ function getBehanceProjectImages(project) {
 function getPhotoSwipeImagesFromBehanceImages(behanceImages) {
     var photoswipeImages = [];
 
-    for (var i = behanceImages.length; i > 0; i--) {
+    for (var i = behanceImages.length-1; i >= 0; i--) {
       var behanceImage = behanceImages[i];
 
       var photoswipeImageSrc = behanceImage.size.disp;
@@ -282,7 +291,7 @@ function getPhotoSwipeImagesFromBehanceImages(behanceImages) {
 }
 
 function insertProjectsIntoDomClass(projects, domClass) {
-  for (var i = projects.length; i > 0; i--) {
+  for (var i = projects.length-1; i >= 0; --i) {
     var project = projects[i];
     var projectCoverSize = 230;
     var projectCoverSrc = project.covers.projectCoverSize;
