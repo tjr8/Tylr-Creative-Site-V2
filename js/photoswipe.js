@@ -197,8 +197,10 @@ http_code: 200
 
 
 function getBehanceProject(projectId) {
-  var behanceProject = $.getJSON("http://behance.net/v2/projects/"+projectId+"?api_key=cK6VzQOtV4uhXjQRsrLbYaRsg14uoK60").project;
-  return behanceProject;
+  $.getJSON("http://behance.net/v2/projects/"+projectId+"?api_key=cK6VzQOtV4uhXjQRsrLbYaRsg14uoK60&callback=cb", function (data) {
+    var behanceProject = data.project;
+    return behanceProject;
+  });
 }
 
 function getBehanceProjects(projectIds) {
