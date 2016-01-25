@@ -195,28 +195,12 @@ http_code: 200
 }
 */
 
-<<<<<<< HEAD
-// Set the global configs to synchronous 
-function getBehanceProject(projectId) {
-  var request = $.ajax({
-    url: "http://behance.net/v2/projects/"+projectId+"?api_key=cK6VzQOtV4uhXjQRsrLbYaRsg14uoK60",
-    method: "GET",
-    dataType: "JSONP"
-  });
-
-  request.done(function (data) {
-    var behanceProject = data.project;
-    console.log(behanceProject);
-
-    return behanceProject;
-=======
 
 function getBehanceProject(projectId, cb) {
   $.getJSON("http://behance.net/v2/projects/"+projectId+"?api_key=cK6VzQOtV4uhXjQRsrLbYaRsg14uoK60&callback=?", function (data) {
     var behanceProject = data.project;
     console.log(behanceProject);
     return cb(behanceProject);
->>>>>>> async
   });
 }
 
