@@ -206,16 +206,20 @@ function getBehanceProject(projectId, cb) {
 
 function getBehanceProjects(projectIds, cb) {
   var projects = [];
-  for (var i = projectIds.length-1; i >= 0; --i) {
+  for (var i = projectIds.length-1; i >= 0; i--) {
+    console.log(i);
     var projectId = projectIds[i];
     console.log(projectId);
     getBehanceProject(projectId, function (project) {
       console.log(project);
       projects.push(project);
+      console.log(i);
+      if (i=0) {
+        return cb(projects);
+      }
     });
   }
 
-  return cb(projects);
 }
 
 function getBehanceProjectImages(project, cb) {
