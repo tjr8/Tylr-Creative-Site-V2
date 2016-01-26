@@ -7,17 +7,15 @@ function getBehanceProject(projectId, cb) {
 
 function getBehanceProjects(projectIds, cb) {
   var projects = [];
-  var done = function done() {
+  function done() {
     return cb(projects);
   }
   var tasks = projectIds.length;
   if (tasks === 0) {
     done();
   } else {
-    ;
     for (var i = projectIds.length-1; i >= 0; i--) {
       var projectId = projectIds[i];
-      console.log(projectId);
       getBehanceProject(projectId, function (project) {
         projects.push(project);
         if (--tasks === 0) {
@@ -32,7 +30,7 @@ function getBehanceProjectImages(project, cb) {
   var modules = project.modules;
   var behanceImages = [];
 
-  for (var i = modules.length; i > 0; --i) {
+  for (var i = modules.length-1; i >= 0; i--) {
     var module = modules[i];
 
     if(module.type === "image") {
@@ -45,7 +43,7 @@ function getBehanceProjectImages(project, cb) {
 
 // function getImagesFromBehanceImages(behanceImages) {
 //   var images = [];
-//   for (var i = behanceImages.length; i > 0; i--) {
+//   for (var i = behanceImages.length-1; i >= 0; i--) {
 //     var behanceImage = behanceImages[i];
 //
 //     var imageSrc = behanceImage.size.disp;
@@ -75,10 +73,10 @@ function getBehanceProjectImages(project, cb) {
 
 function getPhotoSwipeImagesFromBehanceImages(behanceImages, cb) {
   var photoswipeImages = [];
-  for (var i = behanceImages.length; i > 0; --i) {
+  for (var i = behanceImages.length-1; i >= 0; i--) {
     var behanceImage = behanceImages[i];
 
-    var photoswipeImageSrc = behanceImage.size.disp;
+    var photoswipeImageSrc = behanceImage.sizes.disp;
     var photoswipeImageWidth = behanceImage.dimensions.disp.width;
     var photoswipeImageHeight = behanceImage.dimensions.disp.height;
 
@@ -94,14 +92,24 @@ function getPhotoSwipeImagesFromBehanceImages(behanceImages, cb) {
   return cb(photoswipeImages);
 }
 
-function insertProjectsIntoDomClass(projects, domClass) {
-  for (var i = projects.length-1; i >= 0; i--) {
-    var project = projects[i];
-    var projectCoverSize = '230';
-    console.log(project);
-    var projectCoverSrc = project.covers[projectCoverSize];
+function insertProjectsIntoDomClass(projects, domClass, cb) {
+  function done() {
+    return cb();
+  }
+  var tasks = projects.length;
+  if (tasks === 0) {
+    done();
+  } else {
+    for (var i = projects.length-1; i >= 0; i--) {
+      var project = projects[i];
+      var projectCoverSize = '230';
+      var projectCoverSrc = project.covers[projectCoverSize];
 
-    $('.'+domClass).append('<figure id="project" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"><div id="'+project.id+'"><img src="'+projectCoverSrc+'" height="'+projectCoverSize+'" width="'+projectCoverSize+'" itemprop="thumbnail" alt="'+project.name+'"></div></figure>');
+      $('.'+domClass).append('<figure id="'+project.id+'" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"><img src="'+projectCoverSrc+'" height="'+projectCoverSize+'" width="'+projectCoverSize+'" itemprop="thumbnail" alt="'+project.name+'"></figure>');
+      if (--tasks === 0) {
+        done();
+      }
+    }
   }
 }
 
@@ -113,32 +121,32 @@ function main() {
     console.log(project);
   });*/
   getBehanceProjects(projectIds, function (projects) {
-    insertProjectsIntoDomClass(projects,domClass);
-  });
+    insertProjectsIntoDomClass(projects,domClass,function () {
+      var $pswp = $('.pswp')[0];
+      console.log($('div.'+domClass+' > figure'));
+      $('div.'+domClass+' > figure').on('click', function(event) {
+        event.preventDefault();
 
-  var $pswp = $('.pswp')[0];
+        var projectId = '10973025'; // $('div',this).attr('id');
 
-  $('.'+domClass+'>figure#project').on('click', 'figure', function(event) {
-    event.preventDefault();
-    var projectId = $('div',this).attr('id');
+        getBehanceProject(projectId, function (project) {
+          getBehanceProjectImages(project, function (behanceImages) {
+            getPhotoSwipeImagesFromBehanceImages(behanceImages, function (photoswipeImages) {
 
-    getBehanceProject(projectId, function (project) {
-      getBehanceProjectImages(project, function (behanceImages) {
-        getPhotoSwipeImagesFromBehanceImages(behanceImages, function (photoswipeImages) {
+              var options = {
+                bgOpacity: 0.7,
+                showHideOpacity: true
+              };
 
-          var options = {
-            bgOpacity: 0.7,
-            showHideOpacity: true
-          };
-
-          // Initialize PhotoSwipe
-          var gallery = new PhotoSwipe($pswp, PhotoSwipeUI_Default, photoswipeImages, options);
-          gallery.init();
+              // Initialize PhotoSwipe
+              var gallery = new PhotoSwipe($pswp, PhotoSwipeUI_Default, photoswipeImages, options);
+              gallery.init();
+            });
+          });
         });
       });
     });
   });
-
 }
 
 main();
