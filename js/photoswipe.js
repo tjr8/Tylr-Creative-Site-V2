@@ -105,7 +105,7 @@ function insertProjectsIntoDomClass(projects, domClass, cb) {
       var projectCoverSize = '230';
       var projectCoverSrc = project.covers[projectCoverSize];
 
-      $('.'+domClass).append('<figure id="'+project.id+'" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"><img src="'+projectCoverSrc+'" height="'+projectCoverSize+'" width="'+projectCoverSize+'" itemprop="thumbnail" alt="'+project.name+'"></figure>');
+      $('.'+domClass).append('<figure id="'+project.id+'" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" onmouseover="" style="cursor: pointer;"><img src="'+projectCoverSrc+'" height="'+projectCoverSize+'" width="'+projectCoverSize+'" itemprop="thumbnail" alt="'+project.name+'"></figure>');
       if (--tasks === 0) {
         done();
       }
@@ -114,7 +114,7 @@ function insertProjectsIntoDomClass(projects, domClass, cb) {
 }
 
 function main() {
-  var projectIds = ['10973025'];
+  var projectIds = ['10973025','31051165'];
   var domClass = 'galleryList';
 
   /*getBehanceProject('10973025', function (project) {
@@ -127,7 +127,7 @@ function main() {
       $('div.'+domClass+' > figure').on('click', function(event) {
         event.preventDefault();
 
-        var projectId = '10973025'; // $('div',this).attr('id');
+        var projectId = $(this).attr('id');
 
         getBehanceProject(projectId, function (project) {
           getBehanceProjectImages(project, function (behanceImages) {
