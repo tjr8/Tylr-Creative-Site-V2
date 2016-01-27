@@ -105,7 +105,7 @@ function insertProjectsIntoDomClass(projects, domClass, cb) {
       var projectCoverSize = '230';
       var projectCoverSrc = project.covers[projectCoverSize];
 
-      $('.'+domClass).append('<figure id="'+project.id+'" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" onmouseover="" style="cursor: pointer;"><img src="'+projectCoverSrc+'" height="'+projectCoverSize+'" width="'+projectCoverSize+'" itemprop="thumbnail" alt="'+project.name+'"></figure>');
+      $('.'+domClass).append('<figure id="'+project.id+'" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" onmouseover="" style="cursor: pointer;"><img src="'+projectCoverSrc+'" height="('+projectCoverSize+'/(23/18))" width="'+projectCoverSize+'" itemprop="thumbnail" alt="'+project.name+'"></figure>');
       if (--tasks === 0) {
         done();
       }
