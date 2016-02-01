@@ -17,6 +17,7 @@ function getBehanceProjects(projectIds, cb) {
     for (var i = projectIds.length-1; i >= 0; i--) {
       var projectId = projectIds[i];
       getBehanceProject(projectId, function (project) {
+        console.log(project.covers);
         projects.push(project);
         if (--tasks === 0) {
           done();
@@ -114,7 +115,7 @@ function insertProjectsIntoDomClass(projects, domClass, cb) {
 }
 
 function main() {
-  var projectIds = ['10973025','31051165'];
+  var projectIds = ['10973025','31051165','3579359','1918323'];
   var domClass = 'galleryList';
 
   /*getBehanceProject('10973025', function (project) {
@@ -123,7 +124,6 @@ function main() {
   getBehanceProjects(projectIds, function (projects) {
     insertProjectsIntoDomClass(projects,domClass,function () {
       var $pswp = $('.pswp')[0];
-      console.log($('div.'+domClass+' > figure'));
       $('div.'+domClass+' > figure').on('click', function(event) {
         event.preventDefault();
 
