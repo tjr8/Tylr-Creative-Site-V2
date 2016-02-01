@@ -1981,3 +1981,8 @@ line-height: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
+
+figure {
+  display: inline;
+  padding: 15px;
+}
