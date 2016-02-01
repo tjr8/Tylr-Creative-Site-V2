@@ -17,7 +17,6 @@ function getBehanceProjects(projectIds, cb) {
     for (var i = projectIds.length-1; i >= 0; i--) {
       var projectId = projectIds[i];
       getBehanceProject(projectId, function (project) {
-        console.log(project.covers);
         projects.push(project);
         if (--tasks === 0) {
           done();
@@ -107,9 +106,34 @@ function insertProjectsIntoDomClass(projects, domClass, cb) {
     for (var i = projects.length-1; i >= 0; i--) {
       var project = projects[i];
       var projectCoverSize = '230';
-      var projectCoverSrc = project.covers[projectCoverSize];
+      var projectCoverWidth = projectCoverSize;
+      var projectCoverHeight = projectCoverWidth/(23/18);
+      var projectCoverSrc;
 
-      $('.'+domClass).append('<figure id="'+project.id+'" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" onmouseover="" style="cursor: pointer;"><img src="'+projectCoverSrc+'" height="('+projectCoverSize+'/(23/18))" width="'+projectCoverSize+'" itemprop="thumbnail" alt="'+project.name+'"></figure>');
+      var covers = Object.keys(project.covers);
+      if (covers.indexOf(projectCoverSize) >= 0) {
+        projectCoverSrc = project.covers[projectCoverSize];
+      } else {
+        covers.sort().reverse();
+        var coversLeft = covers.length;
+        for (var k = coversLeft-1; k >= 0; k--) {
+          var cover = covers[k];
+          if (--coversLeft === 0) {
+            projectCoverSrc = project.covers[cover];
+          }
+          else if ((typeof parseInt(cover) !== 'number') || (parseInt(cover) > parseInt(projectCoverSize))) {
+            continue;
+          }
+          else {
+            projectCoverSrc = project.covers[cover];
+            break;
+          }
+        }
+      }
+
+      console.log(projectCoverSrc);
+
+      $('.'+domClass).append('<figure id="'+project.id+'" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" onmouseover="" style="cursor: pointer;"><img src="'+projectCoverSrc+'" height="'+projectCoverHeight+'" width="'+projectCoverWidth+'" itemprop="thumbnail" alt="'+project.name+'"></figure>');
       if (--tasks === 0) {
         done();
       }
@@ -121,9 +145,6 @@ function main() {
   var projectIds = ['10973025','31051165','3579359','1918323'];
   var domClass = 'galleryList';
 
-  /*getBehanceProject('10973025', function (project) {
-    console.log(project);
-  });*/
   getBehanceProjects(projectIds, function (projects) {
     insertProjectsIntoDomClass(projects,domClass,function () {
       var $pswp = $('.pswp')[0];
