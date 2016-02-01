@@ -97,6 +97,9 @@ function insertProjectsIntoDomClass(projects, domClass, cb) {
   function done() {
     return cb();
   }
+  projects.sort(function (projectA, projectB) {
+    return projectA.id-projectB.id;
+  });
   var tasks = projects.length;
   if (tasks === 0) {
     done();
