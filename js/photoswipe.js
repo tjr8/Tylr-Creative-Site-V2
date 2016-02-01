@@ -107,21 +107,22 @@ function insertProjectsIntoDomClass(projects, domClass, cb) {
       var project = projects[i];
       var projectCoverSize = '230';
       var projectCoverWidth = projectCoverSize;
-      var projectCoverHeight = projectCoverWidth/(23/18);
+      var projectCoverHeight = projectCoverSize/(23/18);
       var projectCoverSrc;
 
       var covers = Object.keys(project.covers);
       if (covers.indexOf(projectCoverSize) >= 0) {
         projectCoverSrc = project.covers[projectCoverSize];
       } else {
-        covers.sort().reverse();
+        covers.sort();
         var coversLeft = covers.length;
+        // loop in reverse for performance and to process in reverse order
         for (var k = coversLeft-1; k >= 0; k--) {
           var cover = covers[k];
           if (--coversLeft === 0) {
             projectCoverSrc = project.covers[cover];
           }
-          else if ((typeof parseInt(cover) !== 'number') || (parseInt(cover) > parseInt(projectCoverSize))) {
+          else if (isNaN(cover) || (parseInt(cover) > parseInt(projectCoverSize))) {
             continue;
           }
           else {
@@ -130,8 +131,6 @@ function insertProjectsIntoDomClass(projects, domClass, cb) {
           }
         }
       }
-
-      console.log(projectCoverSrc);
 
       $('.'+domClass).append('<figure id="'+project.id+'" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" onmouseover="" style="cursor: pointer;"><img src="'+projectCoverSrc+'" height="'+projectCoverHeight+'" width="'+projectCoverWidth+'" itemprop="thumbnail" alt="'+project.name+'"></figure>');
       if (--tasks === 0) {
