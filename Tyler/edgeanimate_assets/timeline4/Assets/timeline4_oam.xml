@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" id="tag:adobe.com,2012-03:edge:oam:compid:EDGE-1012216147" name="timeline4" version="1">
+
+  <description type="text/html"><![CDATA[Widget Exported from Adobe Edge (V1.DW.Edge)]]></description>
+  <category name="Adobe Edge Animation"/>
+
+  <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+
+  <icon src="images/Poster.png" width="880" height="752" />
+
+  <require type="other" src="timeline4.html" />
+
+  <require type="javascript" src="timeline4_edge.js" />
+  <require type="javascript" src="edge_includes/edge.6.0.0.min.js" />
+
+  <require type="image" src="images/btn_1920s_active.png" />
+  <require type="image" src="images/btn_1920s_normal.png" />
+  <require type="image" src="images/btn_1930s_active.png" />
+  <require type="image" src="images/btn_1930s_normal.png" />
+  <require type="image" src="images/btn_1960s_active.png" />
+  <require type="image" src="images/btn_1960s_normal.png" />
+  <require type="image" src="images/btn_1970s_active.png" />
+  <require type="image" src="images/btn_1970s_normal.png" />
+  <require type="image" src="images/btn_1990s_active.png" />
+  <require type="image" src="images/btn_1990s_normal.png" />
+  <require type="image" src="images/btn_today_active.png" />
+  <require type="image" src="images/btn_today_normal.png" />
+  <require type="image" src="images/btn_vertical_line.png" />
+  <require type="image" src="images/dotted-line.png" />
+  <require type="image" src="images/green_line.png" />
+  <require type="image" src="images/photo1920s1.jpg" />
+  <require type="image" src="images/photo1930s1.jpg" />
+  <require type="image" src="images/photo1960s1.jpg" />
+  <require type="image" src="images/photo1970s1.jpg" />
+  <require type="image" src="images/photo1990s1.jpg" />
+  <require type="image" src="images/Poster.png" />
+  <require type="image" src="images/Today-GFB1.jpg" />
+  <require type="image" src="images/Today-GTG1.jpg" />
+  <require type="image" src="images/yellow_line.png" />
+
+  <require type="folder" src="edge_includes" />
+  <require type="folder" src="images" />
+
+
+  <content><![CDATA[
+    <div class="EDGE-1012216147"></div>
+  ]]></content>
+   
+  <properties name="Properties">
+    <property name="default-width" defaultValue="880" hidden="true"/>
+    <property name="default-height" defaultValue="752" hidden="true"/>
+    <property name="resizable" defaultValue="false" hidden="true"/>				
+		<property name="centering" defaultValue="horizontal" hidden="true"/>				
+		<property name="scaling" defaultValue="none" hidden="true"/>
+    <property name="html-page" defaultValue="timeline4.html" hidden="true"/>
+  </properties>
+
+</widget>
