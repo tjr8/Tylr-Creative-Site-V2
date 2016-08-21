@@ -369,7 +369,7 @@ h1, h2, h3, h4, h5, h6{
 h1{
     font-size:50px;
     text-transform: uppercase;
-    letter-spacing: 20px;
+    letter-spacing: 10px;
 }
 
 h2{
@@ -1985,4 +1985,28 @@ line-height: 24px;
 figure {
   display: inline;
   padding: 15px;
+}
+
+/*photoswipe*/
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.my-gallery figcaption {
+  display: none;
+}
+.pswp-container {
+  z-index: 2000;
+  overflow: visible;
+  position: relative;
 }
