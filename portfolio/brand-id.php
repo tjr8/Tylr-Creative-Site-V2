@@ -6,7 +6,7 @@
     <!-- Meta Data -->
     <title>Tylr Creative</title>
     <meta charset="utf-8" />
-    <meta name="description" content="Brand Identity design by Tyler Robinson." />
+    <meta name="description" content="Branding Design by Tyler Robinson." />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-touch-icon-114x114.png">
@@ -160,6 +160,10 @@
                       <div><img src="/img/gallery/brands/brand_17.jpg"></div>
                       <div><img src="/img/gallery/brands/brand_18.jpg"></div>
                       <div><img src="/img/gallery/brands/brand_19.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_20.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_21.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_22.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_23.jpg"></div>
                     </div>
 
                     <div class="row paginationRow">
