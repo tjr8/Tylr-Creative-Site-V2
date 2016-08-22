@@ -103,23 +103,19 @@
     </div>
 
     <!--end preloader-->
-
     <section id="singlePage">
 
         <section id="singlePageIntro">
             <div class="container">
                 <div class="row text-center" data-scroll-reveal="enter top move 30px over 1s after 0.2s">
-                    <br>
-                    <br>
-                    <br>
+                    <br><br><br>
                     <h1>Brand Identities</h1>
                     <p>
                         Graphic Design / Art Direction
                     </p>
-                    <br>
-                    <br>
-                    <a class="btn btn-default btn-black" href="/portfolio">
-                        Back to Portfolio
+                    <br><br>
+                    <a class="btn btn-default btn-black" href="https://www.behance.net/tjr">
+                        View on Behance
                     </a>
                     <div class="clearfix"></div>
 
@@ -135,70 +131,101 @@
                 <!--content-->
                 <div class="content" data-scroll-reveal="enter top move 30px over 1s after 0.2s">
 
-                    <!--  info -->
-                    <div class="singleProjectInfo" data-scroll-reveal="enter right move 30px over 1s after 0.2s" style="text-align: center">
+                        <!--  info -->
+                        <div class="singleProjectInfo" data-scroll-reveal="enter right move 30px over 1s after 0.2s" style="text-align: center">
 
-                        <span class="fa fa-clock-o"></span>&nbsp;&nbsp;&nbsp;<span class="bold">2011-2014</span>
+                            <span class="fa fa-clock-o"></span>&nbsp;&nbsp;&nbsp;<span class="bold">2011-2014</span>
 
+                        </div>
+                        <!--  end info -->
+
+
+                    <div id="owl-project" class="owl-carousel">
+                      <div><img src="/img/gallery/brands/brand_01.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_02.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_03.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_04.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_05.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_06.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_07.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_08.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_09.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_10.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_11.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_12.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_13.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_14.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_15.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_16.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_17.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_18.jpg"></div>
+                      <div><img src="/img/gallery/brands/brand_19.jpg"></div>
                     </div>
-                    <!--  end info -->
 
+                    <div class="row paginationRow">
+                        <div class="col-xs-6">
+                            <a class="btn btn-default btn-black" href="wedding">
+                                < Previous
+                            </a>
+                        </div>
+                        <div class="col-xs-6 text-right">
+                            <a class="btn btn-default btn-black" href="portraits">
+                               Next >
+                            </a>
+                        </div>
+                    </div>
 
                 </div>
                 <!--end content-->
-                <!--  PhotoSwipe -->
 
-                <h2>First gallery:</h2>
-
-                <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="https://farm3.staticflickr.com/2567/5697107145_a4c2eaa0cd_o.jpg" itemprop="contentUrl" data-size="1024x1024">
-                            <img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Image caption 1</figcaption>
-
-                    </figure>
-
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
-                            <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Image caption 2</figcaption>
-                    </figure>
-
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
-                            <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Image caption 3</figcaption>
-                    </figure>
-
-                    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
-                            <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
-                        </a>
-                        <figcaption itemprop="caption description">Image caption 4</figcaption>
-                    </figure>
-
-                </div>
-                <!--  end photoswipe -->
-
-
-            </div>
-            <!-- /container -->
+            </div> <!-- /container -->
 
         </section>
         <!--end section-->
 
 
-
-
     </section>
 
-  <?php
-    include('../includes/port-footer.php')  
-  ?>
+    <section id="footer" class="dark">
+        <div class="bottomLine text-center">
+
+            <ul class="footerSocialIcons">
+                <li><a href="https://www.facebook.com/tylrcreative"><i class="fa fa-facebook fa-2x"></i></a>
+                </li>
+                <li><a href="https://twitter.com/tylr_r"><i class="fa fa-twitter fa-2x"></i></a>
+                </li>
+                <li><a href="http://instagram.com/tylr_r"><i class="fa fa-instagram fa-2x"></i></a>
+                </li>
+                <li><a href="https://www.behance.net/tylr_r"><i class="fa fa-behance fa-2x"></i></a>
+                </li>
+            </ul>
+            <p class="bold">All works © Tyler Robinson 2012 - 2016. </p>
+            <p>
+                <br> Please do not reproduce without the expressed written consent of Tyler Robinson.</p>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/scripts.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="/js/overlay.js"></script>
+    <script src="/js/preloader.js"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-56635839-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
 </body>
 
