@@ -120,12 +120,12 @@
 
                     <div class="row paginationRow">
                         <div class="col-xs-6">
-                            <a class="btn btn-default btn-black" href="portraits">
+                            <a class="btn btn-default btn-black" href="http://tylrcreative.com/portfolio/portraits">
                                 < Previous
                             </a>
                         </div>
                         <div class="col-xs-6 text-right">
-                            <a class="btn btn-default btn-black" href="promo">
+                            <a class="btn btn-default btn-black" href="http://tylrcreative.com/portfolio/promo">
                                Next >
                             </a>
                         </div>

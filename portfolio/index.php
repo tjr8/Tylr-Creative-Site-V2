@@ -8,36 +8,36 @@
         <meta charset="utf-8" />
         <meta name="description" content="Tyler Robinson is a multifaceted artist who specializes in graphic design. Creating a beautiful world for everyone to experience, he loves to contemplate innovative ideas that build on our current capabilities to build something better and more interesting. In his off time you can find him cycling through the beautiful Wenatchee Valley. He's a life-long learner and plans to advance in experiences and grow many different skills throughout life." />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-        <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-touch-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-touch-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-touch-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-touch-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-touch-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-touch-icon-152x152.png">
-        <link rel="icon" type="image/png" href="../img/favicon/favicon-196x196.png" sizes="196x196">
-        <link rel="icon" type="image/png" href="../img/favicon/favicon-160x160.png" sizes="160x160">
-        <link rel="icon" type="image/png" href="../img/favicon/favicon-96x96.png" sizes="96x96">
-        <link rel="icon" type="image/png" href="../img/favicon/favicon-16x16.png" sizes="16x16">
-        <link rel="icon" type="image/png" href="../img/favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
         <meta name="msapplication-TileColor" content="#1f1f22">
-        <meta name="msapplication-TileImage" content="../img/favicon/mstile-144x144.png">
+        <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png">
 
         <!-- Fonts-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="http://tylrcreative.com/css/font-awesome.min.css" rel="stylesheet">
 
         <!-- Bootstrap -->
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/owl.carousel.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="../css/preloader.css" />
+        <link href="http://tylrcreative.com/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://tylrcreative.com/css/owl.carousel.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://tylrcreative.com/css/preloader.css" />
 
-        <link href="../style.css" rel="stylesheet">
-        <link href="../css/responsive.css" rel="stylesheet">
+        <link href="http://tylrcreative.com/style.css" rel="stylesheet">
+        <link href="http://tylrcreative.com/css/responsive.css" rel="stylesheet">
 
-        <script src="../js/modernizr.custom.js"></script>
+        <script src="http://tylrcreative.com/js/modernizr.custom.js"></script>
 
     </head>
 
@@ -79,6 +79,24 @@
             </nav>
         </header>
 
+        <!--preloader-->
+
+        <div class="ip-header">
+            <div class="ip-logo">
+                <img class="img-responsive preloaderLogo center-block" src="img/TR-Logo.svg" style="width:60%" alt="preloader">
+            </div>
+
+            <div class="ip-loader">
+                <svg class="ip-inner" width="30px" height="30px" viewBox="0 0 80 80">
+                    <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"
+                    />
+                    <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"
+                    />
+                </svg>
+            </div>
+        </div>
+
+        <!--end preloader-->
 
         <!--/* portfolio SECTION */-->
 
@@ -110,7 +128,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a href="wedding">
+                            <a href="portfolio/wedding.html">
                                 <div class="caption-heading">
                                     <p>Photography</p>
                                     <h4>Stephan's Wedding</h4>
@@ -121,7 +139,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="../img/gallery/1.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="img/gallery/1.jpg">
 
                 </div>
                 <!--end item -->
@@ -131,7 +149,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a href="brand-id">
+                            <a href="portfolio/brand-id.html">
                                 <div class="caption-heading">
                                     <p>Graphic Design</p>
                                     <h4>Brand Identities</h4>
@@ -142,7 +160,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="../img/gallery/4.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="img/gallery/4.jpg">
 
                 </div>
                 <!--end item -->
@@ -152,7 +170,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a href="portraits">
+                            <a href="portfolio/portraits.html">
                                 <div class="caption-heading">
                                     <p>Photography</p>
                                     <h4>Portraiture</h4>
@@ -163,7 +181,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="../img/gallery/3.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="img/gallery/3.jpg">
 
                 </div>
                 <!--end item -->
@@ -173,7 +191,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a href="in-house">
+                            <a href="portfolio/in-house.html">
                                 <div class="caption-heading">
                                     <p>Graphic Design</p>
                                     <h4>In-house Designs</h4>
@@ -184,7 +202,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="../img/gallery/2.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="img/gallery/2.jpg">
 
                 </div>
                 <!--end item -->
@@ -194,7 +212,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a href="promo">
+                            <a href="portfolio/promo.html">
                                 <div class="caption-heading">
                                     <p>Graphic Design</p>
                                     <h4>Promo Graphics</h4>
@@ -205,7 +223,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="../img/gallery/5.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="img/gallery/5.jpg">
 
                 </div>
                 <!--end item -->
@@ -215,7 +233,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a id="trigger-overlay-six" class="overlay-ajax" href="single-project-photography" data-toggle="modal" >
+                            <a id="trigger-overlay-six" class="overlay-ajax" href="portfolio/single-project-photography.html" data-toggle="modal" >
                                 <div class="caption-heading">
                                     <p>Photography</p>
                                     <h4>Lifestyle</h4>
@@ -226,7 +244,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="../img/gallery/6.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="img/gallery/6.jpg">
 
                 </div>
                 <!--end item -->
@@ -236,7 +254,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a href="study">
+                            <a href="portfolio/study.html">
                                 <div class="caption-heading">
                                     <p>Graphic Design</p>
                                     <h4>Studies</h4>
@@ -247,7 +265,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="../img/gallery/7.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="img/gallery/7.jpg">
 
                 </div>
                 <!--end item -->
@@ -271,15 +289,15 @@
                     <div class="col-md-8 col-sm-12 col-xs-12">
                         <div id="owl-clients" class="owl-carousel">
                             <div class="clientLogo" data-scroll-reveal="enter right move 10px over 1s after 0.6s">
-                                <a href="http://sellingncw.com"><img src="../img/clients/1.png" class="../img-responsive center-block" alt="Nick Mclean"></a>
+                                <a href="http://sellingncw.com"><img src="img/clients/1.png" class="img-responsive center-block" alt="Nick Mclean"></a>
                             </div>
 
                             <div class="clientLogo" data-scroll-reveal="enter right move 10px over 1s after 0.4s">
-                                <a href="http://parsonsphotography.com"><img src="../img/clients/2.png" class="../img-responsive center-block" alt="Parsons Photography"></a>
+                                <a href="http://parsonsphotography.com"><img src="img/clients/2.png" class="img-responsive center-block" alt="Parsons Photography"></a>
                             </div>
 
                             <div class="clientLogo" data-scroll-reveal="enter right move 10px over 1s after 0.2s">
-                                <a href="#"><img src="../img/clients/3.png" class="../img-responsive center-block" alt="Luni Bin Records"></a>
+                                <a href="#"><img src="img/clients/3.png" class="img-responsive center-block" alt="Luni Bin Records"></a>
                             </div>
                         </div>
                     </div>
@@ -309,13 +327,13 @@
         </section>
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script type="text/javascript" src="../js/scripts.js"></script>
-		<script src="../js/preloader.js"></script>
+        <script type="text/javascript" src="http://tylrcreative.com/js/scripts.js"></script>
+		<script src="http://tylrcreative.com/js/preloader.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js"></script>
-        <script src="../js/overlay.js"></script> <!-- overlay -->
-        <script src="../js/custom.js"></script>
+        <script src="http://tylrcreative.com/js/overlay.js"></script> <!-- overlay -->
+        <script src="http://tylrcreative.com/js/custom.js"></script>
 
-        <script src="../js/googleMapInit.js"></script>
+        <script src="http://tylrcreative.com/js/googleMapInit.js"></script>
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

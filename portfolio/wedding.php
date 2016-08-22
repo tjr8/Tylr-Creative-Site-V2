@@ -145,7 +145,7 @@
 
                     <div class="row paginationRow">
                         <div class="col-xs-6 text-right">
-                            <a class="btn btn-default btn-black" href="brand-id">
+                            <a class="btn btn-default btn-black" href="http://tylrcreative.com/portfolio/brand-id">
                                Next >
                             </a>
                         </div>

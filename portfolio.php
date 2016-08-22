@@ -24,22 +24,20 @@
         <meta name="msapplication-TileColor" content="#1f1f22">
         <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png">
 
-        <link type="text/css" media="screen" rel="stylesheet" href="../awwwards2.css" />
-
         <!-- Fonts-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="http://tylrcreative.com/css/font-awesome.min.css" rel="stylesheet">
 
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/owl.carousel.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/preloader.css" />
+        <link href="http://tylrcreative.com/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://tylrcreative.com/css/owl.carousel.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://tylrcreative.com/css/preloader.css" />
 
-        <link href="style.css" rel="stylesheet">
-        <link href="css/responsive.css" rel="stylesheet">
+        <link href="http://tylrcreative.com/style.css" rel="stylesheet">
+        <link href="http://tylrcreative.com/css/responsive.css" rel="stylesheet">
 
-        <script src="js/modernizr.custom.js"></script>
+        <script src="http://tylrcreative.com/js/modernizr.custom.js"></script>
 
     </head>
 
@@ -81,6 +79,24 @@
             </nav>
         </header>
 
+        <!--preloader-->
+
+        <div class="ip-header">
+            <div class="ip-logo">
+                <img class="img-responsive preloaderLogo center-block" src="http://tylrcreative.com/img/TR-Logo.svg" style="width:60%" alt="preloader">
+            </div>
+
+            <div class="ip-loader">
+                <svg class="ip-inner" width="30px" height="30px" viewBox="0 0 80 80">
+                    <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"
+                    />
+                    <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"
+                    />
+                </svg>
+            </div>
+        </div>
+
+        <!--end preloader-->
 
         <!--/* portfolio SECTION */-->
 
@@ -112,7 +128,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a href="portfolio/wedding.html">
+                            <a href="http://tylrcreative.com/portfolio/wedding">
                                 <div class="caption-heading">
                                     <p>Photography</p>
                                     <h4>Stephan's Wedding</h4>
@@ -123,7 +139,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="img/gallery/1.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="http://tylrcreative.com/img/gallery/1.jpg">
 
                 </div>
                 <!--end item -->
@@ -133,7 +149,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a href="portfolio/brand-id.html">
+                            <a href="http://tylrcreative.com/portfolio/brand-id">
                                 <div class="caption-heading">
                                     <p>Graphic Design</p>
                                     <h4>Brand Identities</h4>
@@ -144,7 +160,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="img/gallery/4.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="http://tylrcreative.com/img/gallery/4.jpg">
 
                 </div>
                 <!--end item -->
@@ -154,7 +170,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a href="portfolio/portraits.html">
+                            <a href="http://tylrcreative.com/portfolio/portraits">
                                 <div class="caption-heading">
                                     <p>Photography</p>
                                     <h4>Portraiture</h4>
@@ -165,7 +181,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="img/gallery/3.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="http://tylrcreative.com/img/gallery/3.jpg">
 
                 </div>
                 <!--end item -->
@@ -175,7 +191,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a href="portfolio/in-house.html">
+                            <a href="http://tylrcreative.com/portfolio/in-house">
                                 <div class="caption-heading">
                                     <p>Graphic Design</p>
                                     <h4>In-house Designs</h4>
@@ -186,7 +202,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="img/gallery/2.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="http://tylrcreative.com/img/gallery/2.jpg">
 
                 </div>
                 <!--end item -->
@@ -196,7 +212,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a href="portfolio/promo.html">
+                            <a href="http://tylrcreative.com/portfolio/promo">
                                 <div class="caption-heading">
                                     <p>Graphic Design</p>
                                     <h4>Promo Graphics</h4>
@@ -207,7 +223,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="img/gallery/5.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="http://tylrcreative.com/img/gallery/5.jpg">
 
                 </div>
                 <!--end item -->
@@ -217,7 +233,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a id="trigger-overlay-six" class="overlay-ajax" href="portfolio/single-project-photography.html" data-toggle="modal" >
+                            <a id="trigger-overlay-six" class="overlay-ajax" href="http://tylrcreative.com/portfolio/single-project-photography" data-toggle="modal" >
                                 <div class="caption-heading">
                                     <p>Photography</p>
                                     <h4>Lifestyle</h4>
@@ -228,7 +244,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="img/gallery/6.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="http://tylrcreative.com/img/gallery/6.jpg">
 
                 </div>
                 <!--end item -->
@@ -238,7 +254,7 @@
                     <!-- caption -->
                     <div class="caption text-center ">
                         <div class="captionWrapper valign">
-                            <a href="portfolio/study.html">
+                            <a href="http://tylrcreative.com/portfolio/study">
                                 <div class="caption-heading">
                                     <p>Graphic Design</p>
                                     <h4>Studies</h4>
@@ -249,7 +265,7 @@
                     </div>
                     <!-- end caption -->
 
-                    <img alt="thumbnail" class="galleryImage" src="img/gallery/7.jpg">
+                    <img alt="thumbnail" class="galleryImage" src="http://tylrcreative.com/img/gallery/7.jpg">
 
                 </div>
                 <!--end item -->
@@ -273,15 +289,15 @@
                     <div class="col-md-8 col-sm-12 col-xs-12">
                         <div id="owl-clients" class="owl-carousel">
                             <div class="clientLogo" data-scroll-reveal="enter right move 10px over 1s after 0.6s">
-                                <a href="http://sellingncw.com"><img src="img/clients/1.png" class="img-responsive center-block" alt="Nick Mclean"></a>
+                                <a href="http://sellingncw.com"><img src="http://tylrcreative.com/img/clients/1.png" class="img-responsive center-block" alt="Nick Mclean"></a>
                             </div>
 
                             <div class="clientLogo" data-scroll-reveal="enter right move 10px over 1s after 0.4s">
-                                <a href="http://parsonsphotography.com"><img src="img/clients/2.png" class="img-responsive center-block" alt="Parsons Photography"></a>
+                                <a href="http://parsonsphotography.com"><img src="http://tylrcreative.com/img/clients/2.png" class="img-responsive center-block" alt="Parsons Photography"></a>
                             </div>
 
                             <div class="clientLogo" data-scroll-reveal="enter right move 10px over 1s after 0.2s">
-                                <a href="#"><img src="img/clients/3.png" class="img-responsive center-block" alt="Luni Bin Records"></a>
+                                <a href="#"><img src="http://tylrcreative.com/img/clients/3.png" class="img-responsive center-block" alt="Luni Bin Records"></a>
                             </div>
                         </div>
                     </div>
@@ -311,13 +327,13 @@
         </section>
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script type="text/javascript" src="js/scripts.js"></script>
-		<script src="js/preloader.js"></script>
+        <script type="text/javascript" src="http://tylrcreative.com/js/scripts.js"></script>
+		<script src="http://tylrcreative.com/js/preloader.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js"></script>
-        <script src="js/overlay.js"></script> <!-- overlay -->
-        <script src="js/custom.js"></script>
+        <script src="http://tylrcreative.com/js/overlay.js"></script> <!-- overlay -->
+        <script src="http://tylrcreative.com/js/custom.js"></script>
 
-        <script src="js/googleMapInit.js"></script>
+        <script src="http://tylrcreative.com/js/googleMapInit.js"></script>
 
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

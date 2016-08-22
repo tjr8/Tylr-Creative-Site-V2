@@ -66,11 +66,11 @@
 
                 <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a data-scroll href="#intro">Home</a>
+                        <li class="active"><a data-scroll href="/#intro">Home</a>
                         </li>
                         <li><a data-scroll href="#about">About</a>
                         </li>
-                        <li><a data-scroll href="/portfolio.html">Portfolio</a>
+                        <li><a data-scroll href="http://tylrcreative.com/portfolio">Portfolio</a>
                         </li>
                         <li><a data-scroll href="#contact">Contact</a>
                         </li>
@@ -368,7 +368,7 @@
     <section id="portfolio">
 
         <div src="pic_mountain.jpg" class="portfolioIntro text-center">
-            <a href="/portfolio.html">
+            <a href="http://tylrcreative.com/portfolio">
                 <div class="black-overlay"></div>
                 <h2 data-scroll-reveal="enter top move 10px over 1s after 0.2s">
                     <span>My Portfolio</span>
@@ -456,7 +456,7 @@
 
                         <div class="col-md-6 col-sm-6 col-xs-6 listwrapper">
                             <ul class="infoContact">
-                                <li><i class="fa fa-phone"></i> 509-433-7831</li>
+                                <li><i class="fa fa-phone"></i> 509-699-1989</li>
                             </ul>
                         </div>
 
