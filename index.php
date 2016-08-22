@@ -83,7 +83,7 @@
                         </li>
 
                     </ul>
-                </div>>
+                </div>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-fluid -->
