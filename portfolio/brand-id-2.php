@@ -146,8 +146,6 @@
                 <!--end content-->
                 <!--  PhotoSwipe -->
 
-                <h2>First gallery:</h2>
-
                 <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
                     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -303,7 +301,7 @@
 
     <!--PhotoSwipe-->
     <script src="http://tylrcreative.com/dist/photoswipe.min.js"></script>
-    <script src="http://tylrcreative.com/dist/photoswipe-ui-default.min.js"></script>
+    <script src="/dist/photoswipe-ui-default.min.js"></script>
     <script>
         var initPhotoSwipeFromDOM = function(gallerySelector) {
 
