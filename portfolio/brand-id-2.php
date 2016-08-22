@@ -32,14 +32,14 @@
     <link href="/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/owl.carousel.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/css/preloader.css" />
+    <link href="http://tylrcreative.com/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://tylrcreative.com/css/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://tylrcreative.com/css/preloader.css" />
 
-    <link href="/style.css" rel="stylesheet">
-    <link href="/css/responsive.css" rel="stylesheet">
+    <link href="http://tylrcreative.com/style.css" rel="stylesheet">
+    <link href="http://tylrcreative.com/css/responsive.css" rel="stylesheet">
 
-    <script src="/js/modernizr.custom.js"></script>
+    <script src="http://tylrcreative.com/js/modernizr.custom.js"></script>
 </head>
 
 <body id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="0">
@@ -56,23 +56,23 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">Tylr Creative</a>
+                    <a class="navbar-brand" href="http://tylrcreative.com/">Tylr Creative</a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a data-scroll href="/">Home</a>
+                        <li class="active"><a data-scroll href="http://tylrcreative.com/">Home</a>
                         </li>
-                        <li><a data-scroll href="#about">About</a>
+                        <li><a data-scroll href="http://tylrcreative.com/#about">About</a>
                         </li>
-                        <li><a data-scroll href="/portfolio">Portfolio</a>
+                        <li><a data-scroll href="http://tylrcreative.com/portfolio">Portfolio</a>
                         </li>
-                        <li><a data-scroll href="#contact">Contact</a>
+                        <li><a data-scroll href="http://tylrcreative.com/#contact">Contact</a>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a data-scroll href="TylerResume'15.pdf" target="_blank">Resume</a>
+                                <li><a data-scroll href="http://tylrcreative.comTylerResume'15.pdf" target="_blank">Resume</a>
                                 </li>
                             </ul>
                         </li>
@@ -89,7 +89,7 @@
 
     <div class="ip-header">
         <div class="ip-logo">
-            <img class="img-responsive preloaderLogo center-block" src="/img/logoWhite.png" alt="preloader">
+            <img class="img-responsive preloaderLogo center-block" src="http://tylrcreative.com/img/logoWhite.png" alt="preloader">
         </div>
 
         <div class="ip-loader">
@@ -116,7 +116,7 @@
                     </p>
                     <br>
                     <br>
-                    <a class="btn btn-default btn-black" href="/portfolio">
+                    <a class="btn btn-default btn-black" href="http://tylrcreative.com/portfolio">
                         Back to Portfolio
                     </a>
                     <div class="clearfix"></div>
@@ -280,10 +280,10 @@
     </section>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/scripts.js"></script>
-    <script src="/js/custom.js"></script>
-    <script src="/js/overlay.js"></script>
-    <script src="/js/preloader.js"></script>
+    <script type="text/javascript" src="http://tylrcreative.com/js/scripts.js"></script>
+    <script src="http://tylrcreative.com/js/custom.js"></script>
+    <script src="http://tylrcreative.com/js/overlay.js"></script>
+    <script src="http://tylrcreative.com/js/preloader.js"></script>
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -302,8 +302,8 @@
     </script>
 
     <!--PhotoSwipe-->
-    <script src="/dist/photoswipe.min.js"></script>
-    <script src="/dist/photoswipe-ui-default.min.js"></script>
+    <script src="http://tylrcreative.com/dist/photoswipe.min.js"></script>
+    <script src="http://tylrcreative.com/dist/photoswipe-ui-default.min.js"></script>
     <script>
         var initPhotoSwipeFromDOM = function(gallerySelector) {
 
