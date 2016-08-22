@@ -6,8 +6,7 @@
     <!-- Meta Data -->
     <title>Tylr Creative</title>
     <meta charset="utf-8" />
-    <meta name="description" content="Tyler Robinson is a multifaceted artist who specializes in graphic design. Creating a beautiful world for everyone to experience, he loves to contemplate innovative ideas that build on our current capabilities to build something better and more interesting. In his off time you can find him cycling through the beautiful Wenatchee Valley. He's a life-long learner and plans to advance in experiences and grow many different skills throughout life."
-    />
+    <meta name="description" content="Tyler Robinson is a multifaceted artist who specializes in graphic design. Creating a beautiful world for everyone to experience, he loves to contemplate innovative ideas that build on our current capabilities to build something better and more interesting. In his off time you can find him cycling through the beautiful Wenatchee Valley. He's a life-long learner and plans to advance in experiences and grow many different skills throughout life." />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
@@ -28,10 +27,8 @@
     <link type="text/css" media="screen" rel="stylesheet" href="../awwwards2.css" />
 
     <!-- Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet'
-    type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet'
-    type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Bootstrap -->
@@ -49,8 +46,7 @@
 <body id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="100">
 
     <header>
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix"
-        data-offset-top="50">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="50">
 
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -99,10 +95,8 @@
 
         <div class="ip-loader">
             <svg class="ip-inner" width="30px" height="30px" viewBox="0 0 80 80">
-                <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"
-                />
-                <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"
-                />
+                <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" />
+                <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" />
             </svg>
         </div>
     </div>
@@ -130,8 +124,6 @@
 
     <!--/* END Intro  */-->
 
-
-
     <!--/* TEXT SEPARATOR */-->
 
     <section id="text-separator">
@@ -143,13 +135,11 @@
                 </div>
             </div>
 
-            <img src="img/textSeparatorLogo.png" class="textSepLogo" data-stellar-ratio="0.5"
-            alt="Logo Black">
+            <img src="img/textSeparatorLogo.png" class="textSepLogo" data-stellar-ratio="0.5" alt="Logo Black">
         </div>
     </section>
 
     <!--/* END TEXT SEPARATOR */-->
-
 
     <!--/* about SECTION */-->
 
@@ -168,19 +158,10 @@
                             <span>About Me</span>
                         </h2>
                     <p data-scroll-reveal="enter bottom move 10px over 1s after 0.2s">
-                        I'm a multifaceted artist who specializes in graphic design. I spend my time dreaming
-                        of and creating a more beautiful world for us to experience.
-                        I love to contemplate innovative ideas that build on our
-                        current capabilities to build something better and more interesting.
-                        In the off time you can find me cycling through the beautiful
-                        Wenatchee Valley of which I'm lucky to call home. Other than
-                        that I'm probably learning or perfecting a skill. I'm a life-long
-                        learner and I love to advance in my experiences and grow
-                        my skills throughout life.
+                        I'm a multifaceted artist who specializes in graphic design. I spend my time dreaming of and creating a more beautiful world for us to experience. I love to contemplate innovative ideas that build on our current capabilities to build something better and more interesting. In the off time you can find me cycling through the beautiful Wenatchee Valley of which I'm lucky to call home. Other than that I'm probably learning or perfecting a skill. I'm a life-long learner and I love to advance in my experiences and grow my skills throughout life.
                     </p>
 
-                    <img data-scroll-reveal="enter top move 10px over 1s after 0.2s" src="img/square-no lines.png"
-                    class="img-responsive center-block profile" alt="profile">
+                    <img data-scroll-reveal="enter top move 10px over 1s after 0.2s" src="img/square-no lines.png" class="img-responsive center-block profile" alt="profile">
 
                 </div>
             </div>
@@ -199,11 +180,7 @@
                         <h4>Designer</h4>
                         <div class="aboutSeparator"></div>
                         <p>
-                            5+ years of freelance graphic design with 2 years in-house work with photography
-                            and graphic design studios. I've worked with small to
-                            large companies including small record labels, wineries,
-                            fruit companies, photographers, realtor groups, non-profit
-                            groups, and many other groups in various industries.
+                            5+ years of freelance graphic design with 2 years in-house work with photography and graphic design studios. I've worked with small to large companies including small record labels, wineries, fruit companies, photographers, realtor groups, non-profit groups, and many other groups in various industries.
                         </p>
                     </div>
                 </div>
@@ -218,17 +195,7 @@
                         <h4>Photographer</h4>
                         <div class="aboutSeparator"></div>
                         <p>
-                            I've been tinkering around with the camera for quite some time and have built a history
-                            of opportunities that have allowed me to use my analytical
-                            process to capture images for a range of different projects.
-                            I shoot high quality imagery, capturing a moment with
-                            just the right light along with the perfect timing. My
-                            experience ranges from weddings, stock images, landscape,
-                            portrait, all the way to product photography. Along with
-                            that I have a 2 year history working in a photography
-                            studio that's dedicated to on point color accuracy and
-                            perfect, yet realistic, photo retouching. This, I feel,
-                            is my most developed skill.
+                            I've been tinkering around with the camera for quite some time and have built a history of opportunities that have allowed me to use my analytical process to capture images for a range of different projects. I shoot high quality imagery, capturing a moment with just the right light along with the perfect timing. My experience ranges from weddings, stock images, landscape, portrait, all the way to product photography. Along with that I have a 2 year history working in a photography studio that's dedicated to on point color accuracy and perfect, yet realistic, photo retouching. This, I feel, is my most developed skill.
                         </p>
                     </div>
                 </div>
@@ -243,8 +210,7 @@
                         <h4>Autodidact</h4>
                         <div class="aboutSeparator"></div>
                         <p>
-                            I'll forever be an ambitious self-taught learner. Constantly refining skills and
-                            obtaining new ones.
+                            I'll forever be an ambitious self-taught learner. Constantly refining skills and obtaining new ones.
                         </p>
                     </div>
                 </div>
@@ -260,9 +226,7 @@
                         <h4>Trendy</h4>
                         <div class="aboutSeparator"></div>
                         <p>
-                            I've got an up-to-date style and techniques that produce innovative results that
-                            are able to hold up in an fast changing and flexible
-                            society.
+                            I've got an up-to-date style and techniques that produce innovative results that are able to hold up in an fast changing and flexible society.
                         </p>
                     </div>
                 </div>
@@ -281,12 +245,7 @@
                     <h4>Skills</h4>
                     <img src="img/lineSeparatorBlack.png" class="img-responsive lineSeparator" alt="separator">
                     <p>
-                        I'm constantly adding something new to my toolbox. I study everything I feel needed
-                        to create better stuff; everything from coding languages
-                        to art concepts. I use adobe cs6/cc programs with ease and
-                        use them on a daily basis. I've studied historic up to current
-                        art concepts and I'm always keeping an eye out for the latest
-                        trends.
+                        I'm constantly adding something new to my toolbox. I study everything I feel needed to create better stuff; everything from coding languages to art concepts. I use adobe cs6/cc programs with ease and use them on a daily basis. I've studied historic up to current art concepts and I'm always keeping an eye out for the latest trends.
                     </p>
                 </div>
 
@@ -295,8 +254,7 @@
                     <!--progress bar-->
                     <h5>Photoshop</h5>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 95%;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
                             <span class="sr-only">95% Complete</span>
                         </div>
                     </div>
@@ -305,8 +263,7 @@
                     <!--progress bar-->
                     <h5>Illustrator</h5>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 80%;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
                             <span class="sr-only">80% Complete</span>
                         </div>
                     </div>
@@ -315,8 +272,7 @@
                     <!--progress bar-->
                     <h5>InDesign</h5>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 70%;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
                             <span class="sr-only">70% Complete</span>
                         </div>
                     </div>
@@ -325,8 +281,7 @@
                     <!--progress bar-->
                     <h5>Web Design</h5>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 60%;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                             <span class="sr-only">60% Complete</span>
                         </div>
                     </div>
@@ -335,8 +290,7 @@
                     <!--progress bar-->
                     <h5>Photographic Skill</h5>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 70%;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
                             <span class="sr-only">70% Complete</span>
                         </div>
                     </div>
@@ -345,8 +299,7 @@
                     <!--progress bar-->
                     <h5>Layout/Composition Skills</h5>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 80%;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
                             <span class="sr-only">80% Complete</span>
                         </div>
                     </div>
@@ -361,7 +314,6 @@
     </section>
 
     <!--/* END about SECTION */-->
-
 
     <!--/* portfolio SECTION */-->
 
@@ -380,7 +332,6 @@
 
     <!--/* end portfolio SECTION */-->
 
-
     <!--/* TEXT SEPARATOR */-->
 
     <section id="text-separator-clients">
@@ -393,20 +344,17 @@
                 <div class="col-md-8 col-sm-12 col-xs-12">
                     <div id="owl-clients" class="owl-carousel">
                         <div class="clientLogo" data-scroll-reveal="enter right move 10px over 1s after 0.6s">
-                            <a href="http://sellingncw.com"><img src="img/clients/1.png" class="img-responsive center-block"
-                                alt="Nick Mclean">
+                            <a href="http://sellingncw.com"><img src="img/clients/1.png" class="img-responsive center-block" alt="Nick Mclean">
                             </a>
                         </div>
 
                         <div class="clientLogo" data-scroll-reveal="enter right move 10px over 1s after 0.4s">
-                            <a href="http://parsonsphotography.com"><img src="img/clients/2.png" class="img-responsive center-block"
-                                alt="Parsons Photography">
+                            <a href="http://parsonsphotography.com"><img src="img/clients/2.png" class="img-responsive center-block" alt="Parsons Photography">
                             </a>
                         </div>
 
                         <div class="clientLogo" data-scroll-reveal="enter right move 10px over 1s after 0.2s">
-                            <a href="#"><img src="img/clients/3.png" class="img-responsive center-block"
-                                alt="Luni Bin Records">
+                            <a href="#"><img src="img/clients/3.png" class="img-responsive center-block" alt="Luni Bin Records">
                             </a>
                         </div>
                     </div>
@@ -416,7 +364,6 @@
     </section>
 
     <!--/* END TEXT SEPARATOR */-->
-
 
     <!--/* contact SECTION */-->
 
@@ -437,7 +384,6 @@
 
             <!--content-->
             <div class="row">
-
 
                 <div class="col-md-6 col-sm-6 col-xs-12" data-scroll-reveal="enter left move over 1s after 0.2s">
 
@@ -549,8 +495,7 @@
             </ul>
             <p class="bold">All works © Tyler Robinson 2012 - 2016. </p>
             <p>
-                <br> Please do not reproduce without the expressed written consent of
-                Tyler Robinson.</p>
+                <br> Please do not reproduce without the expressed written consent of Tyler Robinson.</p>
         </div>
     </section>
 
