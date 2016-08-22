@@ -42,8 +42,6 @@
     <script src="/js/modernizr.custom.js"></script>
 </head>
 
-
-
 <body id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="0">
 
     <header>
@@ -184,20 +182,16 @@
                 </div>
                 <!--  end photoswipe -->
 
-
             </div>
             <!-- /container -->
 
         </section>
         <!--end section-->
 
-
-
-
     </section>
 
   <?php
-    include('../includes/port-footer.php')  
+    include('../includes/port-footer.php')
   ?>
 
 </body>
