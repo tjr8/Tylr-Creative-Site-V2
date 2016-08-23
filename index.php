@@ -90,7 +90,7 @@
 
     <div class="ip-header">
         <div class="ip-logo">
-            <img class="img-responsive preloaderLogo center-block" src="img/TR-Logo.svg" style="width:60%" alt="preloader">
+            <img class="img-responsive preloaderLogo center-block" src="http://tylrcreative.com/img/TR-Logo.svg" alt="preloader">
         </div>
 
         <div class="ip-loader">
@@ -110,7 +110,7 @@
         <div class="container valign">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="img/TR-Logo.svg" class="img-responsive center-block introLogo" style="width:30%" alt="Intro Logo">
+                    <img src="http://tylrcreative.com/img/TR-Logo.svg" class="img-responsive center-block introLogo" style="width:30%;min-width: 200px" alt="Intro Logo">
                 </div>
                 <div class="col-md-6 col-md-offset-3 text-center">
                     <p>

@@ -629,7 +629,8 @@ p.bold{
 }
 
 .portfolioIntro h2 {
-    padding-top:120px;
+    top: 50%;
+    position: relative;
     margin-top:0;
 }
 

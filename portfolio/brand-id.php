@@ -91,7 +91,7 @@
 
     <div class="ip-header">
         <div class="ip-logo">
-            <img class="img-responsive preloaderLogo center-block" src="/img/logoWhite.png" alt="preloader">
+            <img class="img-responsive preloaderLogo center-block" src="http://tylrcreative.com/img/TR-Logo.svg" alt="preloader">
         </div>
 
         <div class="ip-loader">
@@ -114,8 +114,8 @@
                         Graphic Design / Art Direction
                     </p>
                     <br><br>
-                    <a class="btn btn-default btn-black" href="https://www.behance.net/tjr">
-                        View on Behance
+                    <a class="btn btn-default btn-black" href="http://tylrcreative.com/portfolio">
+                        Back To Portfolio
                     </a>
                     <div class="clearfix"></div>
 
@@ -134,7 +134,7 @@
                         <!--  info -->
                         <div class="singleProjectInfo" data-scroll-reveal="enter right move 30px over 1s after 0.2s" style="text-align: center">
 
-                            <span class="fa fa-clock-o"></span>&nbsp;&nbsp;&nbsp;<span class="bold">2011-2014</span>
+                            <span class="fa fa-clock-o"></span>&nbsp;&nbsp;&nbsp;<span class="bold">2011-2016</span>
 
                         </div>
                         <!--  end info -->
