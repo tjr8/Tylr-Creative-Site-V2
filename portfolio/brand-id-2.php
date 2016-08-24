@@ -24,22 +24,21 @@
     <meta name="msapplication-TileColor" content="#1f1f22">
     <meta name="msapplication-TileImage" content="/img/favicon/mstile-144x144.png">
 
+    <!-- CSS -->
+    <!-- Photoswipe -->
     <link href="http://photoswipe.s3.amazonaws.com/pswp/dist/photoswipe.css" rel="stylesheet">
     <link href="http://photoswipe.s3.amazonaws.com/pswp/dist/default-skin/default-skin.css" rel="stylesheet">
     <!-- Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href="/css/font-awesome.min.css" rel="stylesheet">
-
     <!-- Bootstrap -->
     <link href="http://tylrcreative.com/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://tylrcreative.com/css/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://tylrcreative.com/css/preloader.css" />
-
+    <!-- Custom -->
     <link href="http://tylrcreative.com/style.css" rel="stylesheet">
     <link href="http://tylrcreative.com/css/responsive.css" rel="stylesheet">
-
-    <script src="http://tylrcreative.com/js/modernizr.custom.js"></script>
 </head>
 
 <body id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="0">
@@ -141,9 +140,9 @@
                     </div>
                     <!--  end info -->
 
-
                 </div>
                 <!--end content-->
+
                 <!--  PhotoSwipe -->
 
                 <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
@@ -224,7 +223,7 @@
                     <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
                     <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <!-- element will get class pswp__preloader - active when preloader is running -->
                     <div class="pswp__preloader">
                         <div class="pswp__preloader__icn">
                             <div class="pswp__preloader__cut">
@@ -254,9 +253,7 @@
 
     </div>
 
-
     <!-- End of Root element of PhotoSwipe. -->
-
 
     <section id="footer" class="dark">
         <div class="bottomLine text-center">
@@ -276,7 +273,8 @@
                 <br> Please do not reproduce without the expressed written consent of Tyler Robinson.</p>
         </div>
     </section>
-
+    <!-- javascript -->
+    <script src="http://tylrcreative.com/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script type="text/javascript" src="http://tylrcreative.com/js/scripts.js"></script>
     <script src="http://tylrcreative.com/js/custom.js"></script>
@@ -513,7 +511,6 @@
         // execute above function
         initPhotoSwipeFromDOM('.my-gallery');
     </script>
-
 
 </body>
 
