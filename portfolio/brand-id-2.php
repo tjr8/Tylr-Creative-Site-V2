@@ -89,7 +89,7 @@
 
     <div class="ip-header">
         <div class="ip-logo">
-            <img class="img-responsive preloaderLogo center-block" src="http://tylrcreative.com/img/logoWhite.png" alt="preloader">
+            <img class="img-responsive preloaderLogo center-block" src="http://tylrcreative.com/img/TR-Logo.svg" alt="preloader">
         </div>
 
         <div class="ip-loader">
