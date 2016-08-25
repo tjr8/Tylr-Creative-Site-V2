@@ -148,30 +148,30 @@
                 <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
                     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="https://farm3.staticflickr.com/2567/5697107145_a4c2eaa0cd_o.jpg" itemprop="contentUrl" data-size="1024x1024">
-                            <img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg" itemprop="thumbnail" alt="Image description" />
+                        <a href="http://tylrcreative.com/img/gallery/brands/brand_01.jpg" itemprop="contentUrl" data-size="600x500">
+                            <img src="http://tylrcreative.com/img/gallery/brands/thumnails/brand_01.jpg" itemprop="thumbnail" alt="Image description" />
                         </a>
                         <figcaption itemprop="caption description">Image caption 1</figcaption>
 
                     </figure>
 
                     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
-                            <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
+                        <a href="http://tylrcreative.com/img/gallery/brands/brand_02.jpg" itemprop="contentUrl" data-size="600x400">
+                            <img src="http://tylrcreative.com/img/gallery/brands/thumnails/brand_02.jpg" itemprop="thumbnail" alt="Image description" />
                         </a>
                         <figcaption itemprop="caption description">Image caption 2</figcaption>
                     </figure>
 
                     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
-                            <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
+                        <a href="http://tylrcreative.com/img/gallery/brands/brand_03.jpg" itemprop="contentUrl" data-size="1240x930">
+                            <img src="http://tylrcreative.com/img/gallery/brands/thumnails/brand_03.jpg" itemprop="thumbnail" alt="Image description" />
                         </a>
                         <figcaption itemprop="caption description">Image caption 3</figcaption>
                     </figure>
 
                     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                        <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
-                            <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
+                        <a href="http://tylrcreative.com/img/gallery/brands/brand_04.jpg" itemprop="contentUrl" data-size="936x1353">
+                            <img src="http://tylrcreative.com/img/gallery/brands/thumnails/brand_04.jpg" itemprop="thumbnail" alt="Image description" />
                         </a>
                         <figcaption itemprop="caption description">Image caption 4</figcaption>
                     </figure>
