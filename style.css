@@ -79,7 +79,7 @@ section .container{
 .preloaderLogo{
     min-width: 100px;
     max-width: 200px;
-    width: 15%;
+    width: 100px;
 }
 
 
