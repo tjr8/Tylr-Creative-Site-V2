@@ -643,6 +643,7 @@ p.bold {
 
 /*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
+<<<<<<< HEAD
 .portfolioIntro {
   height: 300px;
 }
@@ -653,6 +654,15 @@ p.bold {
   margin-top: 0;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+=======
+.portfolioIntro{
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+>>>>>>> ad17612e851fd096ff6a6720668840b7bd25f9ba
 }
 
 .portfolioIntro h2 span {

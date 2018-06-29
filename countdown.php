@@ -6,8 +6,7 @@
     <!-- Meta Data -->
     <title>Tylr Creative</title>
     <meta charset="utf-8" />
-    <meta name="description" content="Tyler Robinson is a multifaceted artist who specializes in graphic design. Creating a beautiful world for everyone to experience, he loves to contemplate innovative ideas that build on our current capabilities to build something better and more interesting. In his off time you can find him cycling through the beautiful Wenatchee Valley. He's a life-long learner and plans to advance in experiences and grow many different skills throughout life."
-    />
+    <meta name="description" content="Tyler Robinson is a multifaceted artist who specializes in graphic design. Creating a beautiful world for everyone to experience, he loves to contemplate innovative ideas that build on our current capabilities to build something better and more interesting. In his off time you can find him cycling through the beautiful Wenatchee Valley. He's a life-long learner and plans to advance in experiences and grow many different skills throughout life." />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
@@ -159,13 +158,7 @@
                             <span>About Me</span>
                         </h2>
                     <p data-scroll-reveal="enter bottom move 10px over 1s after 0.2s">
-<<<<<<< HEAD
-                        I'm a multifaceted artist who specializes in graphic design. I spend my time dreaming of and creating a more beautiful world for us to experience. I love to contemplate innovative ideas that build on our current capabilities to build something better
-                        and more interesting. In the off time you can find me cycling through the beautiful Wenatchee Valley of which I'm lucky to call home. Other than that I'm probably learning or perfecting a skill. I'm a life-long learner and I love
-                        to advance in my experiences and grow my skills throughout life.
-=======
                         I'm a multifaceted digital craftsman who specializes in design. I spend my time dreaming of and creating a more beautiful world for us to experience. I love to contemplate innovative ideas that build on our current capabilities to build something better and more interesting. In my off time, you can find me cycling through the beautiful Wenatchee Valley of which I'm lucky to call home. Other than that I'm probably learning or perfecting a skill. I'm a life-long learner and I love to advance in my experiences and grow my skills throughout life.
->>>>>>> ad17612e851fd096ff6a6720668840b7bd25f9ba
                     </p>
 
                     <img data-scroll-reveal="enter top move 10px over 1s after 0.2s" src="img/square-no lines.png" class="img-responsive center-block profile" alt="profile">
@@ -187,12 +180,7 @@
                         <h4>Designer</h4>
                         <div class="aboutSeparator"></div>
                         <p>
-<<<<<<< HEAD
-                            5+ years of freelance graphic design with 2 years in-house work with photography and graphic design studios. I've worked with small to large companies including small record labels, wineries, fruit companies, photographers, realtor groups, non-profit
-                            groups, and many other groups in various industries.
-=======
                             5+ years of freelance graphic design with 5 years in-house work with photography and graphic design studios. I've worked with small to large companies including small record labels, wineries, fruit companies, photographers, realtor groups, non-profit groups, and many others in various industries.
->>>>>>> ad17612e851fd096ff6a6720668840b7bd25f9ba
                         </p>
                     </div>
                 </div>
@@ -207,9 +195,7 @@
                         <h4>Photographer</h4>
                         <div class="aboutSeparator"></div>
                         <p>
-                            I've been tinkering around with the camera for quite some time and have built a history of opportunities that have allowed me to use my analytical process to capture images for a range of different projects. I shoot high quality imagery, capturing a moment
-                            with just the right light along with the perfect timing. My experience ranges from weddings, stock images, landscape, portrait, all the way to product photography. Along with that I have a 2 year history working in a photography
-                            studio that's dedicated to on point color accuracy and perfect, yet realistic, photo retouching. This, I feel, is my most developed skill.
+                            I've been tinkering around with the camera for quite some time and have built a history of opportunities that have allowed me to use my analytical process to capture images for a range of different projects. I shoot high quality imagery, capturing a moment with just the right light along with the perfect timing. My experience ranges from weddings, stock images, landscape, portrait, all the way to product photography. Along with that I have a 2 year history working in a photography studio that's dedicated to on point color accuracy and perfect, yet realistic, photo retouching. This, I feel, is my most developed skill.
                         </p>
                     </div>
                 </div>
@@ -259,8 +245,7 @@
                     <h4>Skills</h4>
                     <img src="img/lineSeparatorBlack.png" class="img-responsive lineSeparator" alt="separator">
                     <p>
-                        I'm constantly adding something new to my toolbox. I study everything I feel needed to create better stuff; everything from coding languages to art concepts. I use adobe cs6/cc programs with ease and use them on a daily basis. I've studied historic up
-                        to current art concepts and I'm always keeping an eye out for the latest trends.
+                        I'm constantly adding something new to my toolbox. I study everything I feel needed to create better stuff; everything from coding languages to art concepts. I use adobe cs6/cc programs with ease and use them on a daily basis. I've studied historic up to current art concepts and I'm always keeping an eye out for the latest trends.
                     </p>
                 </div>
 
