@@ -624,14 +624,11 @@ p.bold{
 
 .portfolioIntro{
     height:300px;
-}
-
-.portfolioIntro h2 {
-    top: 50%;
-    position: absolute;
-    margin-top: 0;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
 }
 
 .portfolioIntro h2 span{
