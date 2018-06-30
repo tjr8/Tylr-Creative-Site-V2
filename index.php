@@ -6,7 +6,8 @@
     <!-- Meta Data -->
     <title>Tylr Creative</title>
     <meta charset="utf-8" />
-    <meta name="description" content="Tyler Robinson is a multifaceted artist who specializes in graphic design. Creating a beautiful world for everyone to experience, he loves to contemplate innovative ideas that build on our current capabilities to build something better and more interesting. In his off time you can find him cycling through the beautiful Wenatchee Valley. He's a life-long learner and plans to advance in experiences and grow many different skills throughout life." />
+    <meta name="description" content="Tyler Robinson is a multifaceted artist who specializes in graphic design. Creating a beautiful world for everyone to experience, he loves to contemplate innovative ideas that build on our current capabilities to build something better and more interesting. In his off time you can find him cycling through the beautiful Wenatchee Valley. He's a life-long learner and plans to advance in experiences and grow many different skills throughout life."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
@@ -34,13 +35,12 @@
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/preloader.css" />
 
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
     <script src="js/modernizr.custom.js"></script>
 
 </head>
-
 <body id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="100">
 
     <header>
@@ -156,7 +156,9 @@
                             <span>About Me</span>
                         </h2>
                     <p data-scroll-reveal="enter bottom move 10px over 1s after 0.2s">
-                        I'm a multifaceted digital craftsman who specializes in design. I spend my time dreaming of and creating a more beautiful world for us to experience. I love to contemplate innovative ideas that build on our current capabilities to build something better and more interesting. In my off time, you can find me cycling through the beautiful Wenatchee Valley of which I'm lucky to call home. Other than that I'm probably learning or perfecting a skill. I'm a life-long learner and I love to advance in my experiences and grow my skills throughout life.
+                        I'm a multifaceted digital craftsman who specializes in design. I spend my time dreaming of and creating a more beautiful world for us to experience. I love to contemplate innovative ideas that build on our current capabilities to build something better
+                        and more interesting. In my off time, you can find me cycling through the beautiful Wenatchee Valley of which I'm lucky to call home. Other than that I'm probably learning or perfecting a skill. I'm a life-long learner and I love
+                        to advance in my experiences and grow my skills throughout life.
                     </p>
 
                     <img data-scroll-reveal="enter top move 10px over 1s after 0.2s" src="img/square-no lines.png" class="img-responsive center-block profile" alt="profile">
@@ -178,7 +180,8 @@
                         <h4>Designer</h4>
                         <div class="aboutSeparator"></div>
                         <p>
-                            5+ years of freelance graphic design with 5 years in-house work with photography and graphic design studios. I've worked with small to large companies including small record labels, wineries, fruit companies, photographers, realtor groups, non-profit groups, and many others in various industries.
+                            5+ years of freelance graphic design with 5 years in-house work with photography and graphic design studios. I've worked with small to large companies including small record labels, wineries, fruit companies, photographers, realtor groups, non-profit
+                            groups, and many others in various industries.
                         </p>
                     </div>
                 </div>
@@ -193,7 +196,9 @@
                         <h4>Photographer</h4>
                         <div class="aboutSeparator"></div>
                         <p>
-                            I've been tinkering around with the camera for quite some time and have built a history of opportunities that have allowed me to use my analytical process to capture images for a range of different projects. I shoot high quality imagery, capturing a moment with just the right light along with the perfect timing. My experience ranges from weddings, stock images, landscape, portrait, all the way to product photography. Along with that I have a 2 year history working in a photography studio that's dedicated to on point color accuracy and perfect, yet realistic, photo retouching. This, I feel, is my most developed skill.
+                            I've been tinkering around with the camera for quite some time and have built a history of opportunities that have allowed me to use my analytical process to capture images for a range of different projects. I shoot high quality imagery, capturing a moment
+                            with just the right light along with the perfect timing. My experience ranges from weddings, stock images, landscape, portrait, all the way to product photography. Along with that I have a 2 year history working in a photography
+                            studio that's dedicated to on point color accuracy and perfect, yet realistic, photo retouching. This, I feel, is my most developed skill.
                         </p>
                     </div>
                 </div>
@@ -243,7 +248,8 @@
                     <h4>Skills</h4>
                     <img src="img/lineSeparatorBlack.png" class="img-responsive lineSeparator" alt="separator">
                     <p>
-                        I'm constantly adding something new to my toolbox. I study everything I feel needed to create better stuff; everything from coding languages to art concepts. I use adobe cs6/cc programs with ease and use them on a daily basis. I've studied historic up to current art concepts and I'm always keeping an eye out for the latest trends.
+                        I'm constantly adding something new to my toolbox. I study everything I feel needed to create better stuff; everything from coding languages to art concepts. I use adobe cs6/cc programs with ease and use them on a daily basis. I've studied historic up
+                        to current art concepts and I'm always keeping an eye out for the latest trends.
                     </p>
                 </div>
 
@@ -465,11 +471,11 @@
             </div>
 
             <ul class="footerSocialIcons">
-                <li><a href="https://twitter.com/tylr_r"><i class="fa fa-twitter fa-2x"></i></a>
+                <li><a href="https://twitter.com/tylr_r" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
                 </li>
-                <li><a href="https://github.com/tjr8"><i class="fa fa-github fa-2x"></i></a>
+                <li><a href="https://github.com/tjr8" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                 </li>
-                <li><a href="http://instagram.com/tylr_r"><i class="fa fa-instagram fa-2x"></i></a>
+                <li><a href="http://instagram.com/tylr_r" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
                 </li>
             </ul>
             <p class="bold">All works © Tyler Robinson 2012 - 2018. </p>
@@ -477,35 +483,25 @@
                 <br> Please do not reproduce without the expressed written consent of Tyler Robinson.</p>
         </div>
     </section>
-
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <script src="js/preloader.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/overlay.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- overlay -->
     <script src="js/custom.js"></script>
 
-    <script src="js/googleMapInit.js"></script>
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56635839-1"></script>
     <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script',
-            '//www.google-analytics.com/analytics.js', 'ga');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        ga('create', 'UA-56635839-1', 'auto');
-        ga('send', 'pageview');
+      gtag('config', 'UA-56635839-1');
     </script>
+
 
     <script>
         $.backstretch('img/background1.jpg');
