@@ -498,7 +498,7 @@ p.bold {
 .portfolioIntro {
     position: relative;
     z-index: 2;
-    background: url('img/portfolioIntro.jpg') no-repeat center center;
+    background: url('http://tylrcreative.com/img/portfolioIntro.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

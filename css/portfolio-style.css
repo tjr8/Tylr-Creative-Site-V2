@@ -1,0 +1,84 @@
+.portfolioFilters {
+    height: 150px;
+    background-color: #1d1d1d;
+}
+
+#filters {
+    padding-top: 30px;
+}
+
+#filters .btn {
+    margin: 20px;
+}
+
+.gallery {
+    max-width: 100%;
+}
+
+.gallery-inner .caption {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(40, 40, 40, 0.70);
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.gallery-inner:hover .caption {
+    opacity: 1;
+}
+
+.gallery-inner .caption-heading {
+    width: 100%;
+    height: 120px;
+}
+
+.caption-heading .btn-default {
+    line-height: 30px;
+    font-size: 10px;
+    margin-top: 8px;
+}
+
+.gallery-inner .caption-heading, .gallery-inner .caption-heading p {
+    color: white;
+}
+
+.gallery-inner .caption-heading p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.gallery {
+    background: #4c4c4c;
+    min-height: 500px;
+}
+
+.gallery:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* 5 columns, percentage width */
+
+.gallery .gallery-inner, .gallery .grid-sizer {
+    width: 33.333%;
+    /* change here the column width */
+}
+
+.gallery .gallery-inner {
+    float: left;
+    height: auto;
+    background: #4c4c4c;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+
+.galleryImage {
+    /*min-width:100%;*/
+    width: 100%;
+    height: auto;
+}
