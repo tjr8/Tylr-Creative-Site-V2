@@ -376,11 +376,7 @@ p.bold {
     font-weight: 700;
 }
 
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
 /*<!--Intro -->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
 #intro h1, #intro p {
     color: white;
@@ -401,11 +397,7 @@ p.bold {
     margin-top: 20px;
 }
 
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
 /*<!--Text Separator -->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
 #text-separator .container-fluid .col-md-6 {
     padding-left: 50px;
@@ -438,17 +430,8 @@ p.bold {
     z-index: 1;
 }
 
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
-/*<!--Welcome Separator -->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
 /*<!--About -->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
 #about {
     background-color: white;
@@ -496,11 +479,7 @@ p.bold {
     margin-bottom: 100px;
 }
 
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
 /*<!--Portfolio -->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
 .portfolioIntro {
     height: 300px;
@@ -550,12 +529,6 @@ p.bold {
     padding-bottom: 100px;
 }
 
-/* ---- isotope ---- */
-
-/* clear fix */
-
-/* 5 columns, percentage width */
-
 /* Overlay style */
 
 .overlay {
@@ -568,34 +541,6 @@ p.bold {
     z-index: 3000;
     overflow-y: scroll;
 }
-
-/* Effects */
-
-/* magnific popup effect */
-
-/* overlay animate in */
-
-/* overlay animate out */
-
-/* content at start */
-
-/* content animate it */
-
-/* content animate out */
-
-/* end magnific popup effect */
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
-/*<!--Team -->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
-/*<!--clients logo -->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
 #text-separator-clients {
     padding-top: 110px;
@@ -615,30 +560,6 @@ p.bold {
     width: 180px;
     margin-top: 15px;
 }
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
-/*<!--Services -->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
-/*<!--Testimonials -->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
-/*<!--Pricing Tables -->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
-
-/*<!--Contact -->*/
-
-/*<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->*/
 
 #contact {
     background: white;
@@ -813,19 +734,3 @@ label input, textarea {
 ul {
     line-height: 24px;
 }
-
-/*BLOG SECTION*/
-
-/* ---- isotope ---- */
-
-/* clear fix */
-
-/* ---- .element-item ---- */
-
-/* 5 columns, percentage width */
-
-/*custom owl*/
-
-/*shortcodes */
-
-/*photoswipe*/
