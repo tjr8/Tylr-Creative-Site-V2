@@ -28,17 +28,17 @@
     <!-- Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href="http://tylrcreative.com/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link href="http://tylrcreative.com/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://tylrcreative.com/css/owl.carousel.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="http://tylrcreative.com/css/preloader.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/preloader.css" />
 
-    <link href="http://tylrcreative.com/style.css" rel="stylesheet">
-    <link href="http://tylrcreative.com/css/responsive.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
-    <script src="http://tylrcreative.com/js/modernizr.custom.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 
 </head>
 
@@ -313,48 +313,46 @@
     <section id="footer" class="dark">
         <div class="bottomLine text-center">
 
+            <div class="backToTop">
+                <a data-scroll href="#intro">
+                    <i class="fa fa-angle-double-up"></i>
+                    <br>
+                    <h5>Back to top</h5>
+                </a>
+            </div>
+
             <ul class="footerSocialIcons">
-                <li><a href="https://www.facebook.com/tylrcreative"><i class="fa fa-facebook fa-2x"></i></a>
+                <li><a href="https://twitter.com/tylr_r" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
                 </li>
-                <li><a href="https://twitter.com/tylr_r"><i class="fa fa-twitter fa-2x"></i></a>
+                <li><a href="https://github.com/tjr8" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                 </li>
-                <li><a href="http://instagram.com/tylr_r"><i class="fa fa-instagram fa-2x"></i></a>
-                </li>
-                <li><a href="https://www.behance.net/tylr_r"><i class="fa fa-behance fa-2x"></i></a>
+                <li><a href="http://instagram.com/tylr_r" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
                 </li>
             </ul>
-            <p class="bold">All works © Tyler Robinson 2012 - 2016. </p>
+            <p class="bold">All works © Tyler Robinson 2012 - 2018. </p>
             <p>
                 <br> Please do not reproduce without the expressed written consent of Tyler Robinson.</p>
         </div>
     </section>
-
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script type="text/javascript" src="http://tylrcreative.com/js/scripts.js"></script>
-    <script src="http://tylrcreative.com/js/preloader.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="http://tylrcreative.com/js/overlay.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/overlay.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- overlay -->
-    <script src="http://tylrcreative.com/js/custom.js"></script>
+    <script src="js/custom.js"></script>
 
-    <script src="http://tylrcreative.com/js/googleMapInit.js"></script>
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56635839-1"></script>
     <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        ga('create', 'UA-56635839-1', 'auto');
-        ga('send', 'pageview');
+      gtag('config', 'UA-56635839-1');
     </script>
+
 
     <script>
         $.backstretch('img/background1.jpg');
