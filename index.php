@@ -102,7 +102,7 @@
     <!--end preloader-->
 
     <!--/* Intro  */-->
-
+    <div id="home">
     <section id="intro">
         <div class="black-overlay"></div>
         <div class="container valign">
@@ -119,6 +119,7 @@
             </div>
         </div>
     </section>
+    </div>
 
     <!--/* END Intro  */-->
 
