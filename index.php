@@ -41,6 +41,7 @@
     <script src="js/modernizr.custom.js"></script>
 
 </head>
+
 <body id="bigWrapper" data-spy="scroll" data-target=".navbar-default" data-offset="100">
 
     <header>
@@ -88,7 +89,7 @@
 
     <div class="ip-header">
         <div class="ip-logo">
-            <img class="img-responsive preloaderLogo center-block" src="http://tylrcreative.com/img/TR-Logo.svg" alt="preloader">
+            <img class="img-responsive preloaderLogo center-block" src="img/TR-Logo.svg" alt="preloader">
         </div>
 
         <div class="ip-loader">
@@ -103,22 +104,22 @@
 
     <!--/* Intro  */-->
     <div id="home">
-    <section id="intro">
-        <div class="black-overlay"></div>
-        <div class="container valign">
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="http://tylrcreative.com/img/TR-Logo.svg" class="img-responsive center-block introLogo" style="width:30%;min-width: 200px" alt="Intro Logo">
-                </div>
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <p>
-                        “I was too practical to want to be a painter.”
-                        <br><i>Paul Rand</i>
-                    </p>
+        <section id="intro">
+            <div class="black-overlay"></div>
+            <div class="container valign">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="img/TR-Logo.svg" class="img-responsive center-block introLogo" style="width:30%;min-width: 200px" alt="Intro Logo">
+                    </div>
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <p>
+                            “I was too practical to want to be a painter.”
+                            <br><i>Paul Rand</i>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     </div>
 
     <!--/* END Intro  */-->
@@ -412,18 +413,6 @@
 
                     </div>
 
-                    <ul class="socialContact">
-                        <li>
-                            <a class="fa fa-facebook" href="https://www.facebook.com/tylrcreative"></a>
-                        </li>
-                        <li>
-                            <a class="fa fa-twitter" href="https://twitter.com/Tylr_r"></a>
-                        </li>
-                        <li>
-                            <a class="fa fa-google-plus" href="https://plus.google.com/113766628063233304857"></a>
-                        </li>
-                    </ul>
-
                 </div>
 
                 <div class="col-md-6 col-sm-6 col-xs-12 text-center" data-scroll-reveal="enter right move over 1s after 0.2s">
@@ -496,11 +485,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56635839-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-56635839-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-56635839-1');
     </script>
 
 
