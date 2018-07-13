@@ -1,53 +1,47 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-    <head>
+<head>
 
-        <!-- Meta Data -->
-        <title>Tylr Creative</title>
-        <meta charset="utf-8" />
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-        <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-touch-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-touch-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-touch-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-touch-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-touch-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-touch-icon-152x152.png">
-        <link rel="icon" type="image/png" href="/img/favicon/favicon-196x196.png" sizes="196x196">
-        <link rel="icon" type="image/png" href="/img/favicon/favicon-160x160.png" sizes="160x160">
-        <link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96">
-        <link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16">
-        <link rel="icon" type="image/png" href="/img/favicon/favicon-32x32.png" sizes="32x32">
-        <meta name="msapplication-TileColor" content="#1f1f22">
-        <meta name="msapplication-TileImage" content="/img/favicon/mstile-144x144.png">
+    <!-- Meta Data -->
+    <title>Tylr Creative</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Tyler Robinson is a multifaceted artist who specializes in graphic design. Creating a beautiful world for everyone to experience, he loves to contemplate innovative ideas that build on our current capabilities to build something better and more interesting. In his off time you can find him cycling through the beautiful Wenatchee Valley. He's a life-long learner and plans to advance in experiences and grow many different skills throughout life."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#1f1f22">
+    <meta name="msapplication-TileImage" content="/img/favicon/mstile-144x144.png">
 
-        <link type="text/css" media="screen" rel="stylesheet" href="../awwwards2.css" />
+    <!-- Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
 
-        <!-- Fonts-->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/preloader.css" />
+    <link rel="stylesheet" type="text/css" href="/css/portfolio-style.css" />
 
-        <!-- Bootstrap -->
-        <link href="/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/css/owl.carousel.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/responsive.css" rel="stylesheet">
 
-        <link href="/style.css" rel="stylesheet">
-        <link href="/css/responsive.css" rel="stylesheet">
+    <script src="/js/modernizr.custom.js"></script>
 
-        <script src="/js/modernizr.custom.js"></script>
-
-
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
+</head>
 
 
 
