@@ -117,8 +117,8 @@
             <div class="" id="filters">
                 <button class="btn btn-default" data-filter="*" data-toggle="tooltip" data-placement="top" title="" data-original-title="18" data-scroll-reveal="enter bottom move 10px over 1s after 0.2s">Show All</button>
                 <button class="btn btn-default" data-filter=".design" data-toggle="tooltip" data-placement="top" title="" data-original-title="4" data-scroll-reveal="enter bottom move 10px over 1s after 0.3s">Design</button>
-                <button class="btn btn-default" data-filter=".photography" data-toggle="tooltip" data-placement="top" title="" data-original-title="5" data-scroll-reveal="enter bottom move 10px over 1s after 0.5s">photography</button>
-                <button class="btn btn-default" data-filter=".mixed" data-toggle="tooltip" data-placement="top" title="" data-original-title="6" data-scroll-reveal="enter bottom move 10px over 1s after 0.6s">mixed</button>
+                <button class="btn btn-default" data-filter=".photography" data-toggle="tooltip" data-placement="top" title="" data-original-title="5" data-scroll-reveal="enter bottom move 10px over 1s after 0.5s">Photography</button>
+                <button class="btn btn-default" data-filter=".other" data-toggle="tooltip" data-placement="top" title="" data-original-title="6" data-scroll-reveal="enter bottom move 10px over 1s after 0.6s">Other</button>
             </div>
         </div>
 
@@ -254,7 +254,7 @@
             <!--end item -->
 
             <!--item -->
-            <div class="gallery-inner mixed">
+            <div class="gallery-inner other">
                 <!-- caption -->
                 <div class="caption text-center ">
                     <div class="captionWrapper valign">
